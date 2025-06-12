@@ -11,7 +11,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/bafles.webp'],
     categoryId: 'bafles-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '002',
@@ -23,7 +23,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/bafles.webp'],
     categoryId: 'bafles-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '003',
@@ -35,7 +35,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/bafles.webp'],
     categoryId: 'bafles-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '004',
@@ -47,7 +47,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/bafles.webp'],
     categoryId: 'bafles-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '005',
@@ -59,7 +59,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/bafles.webp'],
     categoryId: 'bafles-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '006',
@@ -72,7 +72,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/humo.webp'],
     categoryId: 'humo-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '007',
@@ -85,7 +85,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/humo.webp'],
     categoryId: 'humo-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '008',
@@ -98,7 +98,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/humo.webp'],
     categoryId: 'humo-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '009',
@@ -111,7 +111,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/humo.webp'],
     categoryId: 'humo-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '010',
@@ -124,7 +124,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/humo.webp'],
     categoryId: 'humo-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '011',
@@ -136,7 +136,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/luces.webp'],
     categoryId: 'luces-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '012',
@@ -148,7 +148,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/luces.webp'],
     categoryId: 'luces-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '013',
@@ -160,7 +160,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/luces.webp'],
     categoryId: 'luces-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '014',
@@ -172,7 +172,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/luces.webp'],
     categoryId: 'luces-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '015',
@@ -184,7 +184,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/luces.webp'],
     categoryId: 'luces-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '016',
@@ -196,7 +196,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/iluminacion.webp'],
     categoryId: 'iluminacion-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '017',
@@ -208,7 +208,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/iluminacion.webp'],
     categoryId: 'iluminacion-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '018',
@@ -220,7 +220,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/iluminacion.webp'],
     categoryId: 'iluminacion-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '019',
@@ -232,7 +232,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/iluminacion.webp'],
     categoryId: 'iluminacion-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '020',
@@ -244,7 +244,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/iluminacion.webp'],
     categoryId: 'iluminacion-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '021',
@@ -256,7 +256,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/estructuras.webp'],
     categoryId: 'estructuras-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '022',
@@ -268,7 +268,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/estructuras.webp'],
     categoryId: 'estructuras-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '023',
@@ -280,7 +280,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/estructuras.webp'],
     categoryId: 'estructuras-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '024',
@@ -292,7 +292,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/estructuras.webp'],
     categoryId: 'estructuras-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '025',
@@ -304,7 +304,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/estructuras.webp'],
     categoryId: 'estructuras-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '026',
@@ -316,7 +316,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/accesorios.webp'],
     categoryId: 'accesorios-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '027',
@@ -328,7 +328,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/accesorios.webp'],
     categoryId: 'accesorios-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '028',
@@ -340,7 +340,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/accesorios.webp'],
     categoryId: 'accesorios-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '029',
@@ -352,7 +352,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/accesorios.webp'],
     categoryId: 'accesorios-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '030',
@@ -364,7 +364,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/accesorios.webp'],
     categoryId: 'accesorios-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '031',
@@ -376,7 +376,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/pantallas.webp'],
     categoryId: 'pantallas-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '032',
@@ -388,7 +388,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/pantallas.webp'],
     categoryId: 'pantallas-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '033',
@@ -400,7 +400,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/pantallas.webp'],
     categoryId: 'pantallas-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '034',
@@ -412,7 +412,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/pantallas.webp'],
     categoryId: 'pantallas-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
   {
     id: '035',
@@ -424,7 +424,7 @@ export const PRODUCTS: Product[] = [
     images: ['/images/pantallas.webp'],
     categoryId: 'pantallas-category',
     features: ['Característica 1', 'Característica 2', 'Característica 3'],
-    videoUrl: 'https://www.youtube.com/watch?v=VGL3x3Cc1io',
+    videoUrl: 'https://res.cloudinary.com/dbbw5ppe1/video/upload/iluminacion_test_ngiwwb.mp4',
   },
 ];
 

@@ -7,7 +7,7 @@ export default function CategoriesSection() {
   return (
     <section
       id='categorias'
-      className='w-full max-w-7xl mx-auto py-16 px-4 md:px-8'
+      className='w-full max-w-7xl mx-auto py-20 px-4 md:px-8'
       aria-labelledby='categories-heading'>
       <header className='mb-10 text-center'>
         <h2

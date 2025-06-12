@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /admin
+
+# Host
+Host: https://www.arigioaudioeiluminacion.com.mx
+
+# Sitemaps
+Sitemap: https://www.arigioaudioeiluminacion.com.mx/sitemap.xml

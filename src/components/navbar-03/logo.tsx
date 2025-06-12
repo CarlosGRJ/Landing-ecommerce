@@ -10,7 +10,17 @@ export const Logo = () => (
       height={40}
       priority
       unoptimized
-      className='h-28 object-contain'
+      className='h-28 object-contain hidden sm:block'
+    />
+
+    <Image
+      src='/images/logo-icon.webp'
+      alt='Logo de Arigio Company'
+      width={60}
+      height={40}
+      priority
+      unoptimized
+      className='h-28 object-contain block sm:hidden'
     />
   </Link>
 );

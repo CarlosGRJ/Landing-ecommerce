@@ -29,6 +29,12 @@ export const NavMenu = (props: NavigationMenuProps) => (
         </Button>
       </NavigationMenuItem>
 
+      <NavigationMenuItem>
+        <Button variant='ghost' className='text-[15px] font-normal' asChild>
+          <Link href='#contacto'>Contacto</Link>
+        </Button>
+      </NavigationMenuItem>
+
       <NavigationMenuItem className='hidden md:flex items-center pl-4'>
         <SearchBox />
       </NavigationMenuItem>

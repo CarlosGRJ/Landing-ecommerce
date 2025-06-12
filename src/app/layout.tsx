@@ -4,6 +4,7 @@ import './globals.css';
 import Navbar03Page from '@/components/navbar-03/navbar-03';
 import { ContactSection } from '@/components/sections/ContactSection';
 import { Footer } from '@/components/footer/Footer';
+import { Toaster } from '@/components/ui/sonner';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
     siteName: 'Arigio Audio e Iluminación',
     images: [
       {
-        url: '/images/og-home.jpg', // TODO: Change image cover
+        url: '/images/og-home.jpg',
         alt: 'Arigio Audio e Iluminación - Equipo profesional para eventos',
       },
     ],
@@ -68,14 +69,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='es'>
+      <head>
+        <link
+          rel='icon'
+          type='image/png'
+          href='/favicon-96x96.png'
+          sizes='96x96'
+        />
+        <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+        <link rel='shortcut icon' href='/favicon.ico' />
+        <link
+          rel='apple-touch-icon'
+          sizes='180x180'
+          href='/apple-touch-icon.png'
+        />
+        <meta name='apple-mobile-web-app-title' content='MyWebSite' />
+        <link rel='manifest' href='/site.webmanifest' />
+        <meta name='theme-color' content='#4f46e5' />
+      </head>
+
       <body
-        className={`${geistSans.variable} ${montserrat.className} antialiased`}>
+        className={`${geistSans.variable} ${montserrat.className} antialiased bg-white text-gray-900`}>
         <Navbar03Page />
         <main>{children}</main>
-
         <ContactSection />
-
         <Footer />
+        <Toaster richColors />
       </body>
     </html>
   );

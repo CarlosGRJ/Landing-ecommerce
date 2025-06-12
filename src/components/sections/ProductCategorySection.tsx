@@ -28,7 +28,7 @@ export const ProductCategorySection = ({
   return (
     <section
       aria-labelledby={`category-${title.replace(/\s+/g, '-').toLowerCase()}`}
-      className='w-full py-12 px-4 md:px-8 bg-white'>
+      className='w-[89%] sm:w-[95%] xl:w-full py-12 px-4 md:px-8 bg-white'>
       <div className='max-w-7xl mx-auto'>
         <header className='mb-6'>
           <h2

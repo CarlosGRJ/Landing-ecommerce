@@ -1,14 +1,9 @@
 import { notFound } from 'next/navigation';
 import { CATEGORIES } from '@/constants/categories';
 import { PRODUCTS } from '@/constants/products';
-import { Metadata } from 'next';
 import PaginatedCategory from '@/components/sections/PaginatedCategory';
-
-interface Props {
-  params: {
-    slug: string;
-  };
-}
+import { Metadata } from 'next';
+import { Suspense } from 'react';
 
 export async function generateStaticParams() {
   return CATEGORIES.map((category) => ({
@@ -16,14 +11,24 @@ export async function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }: Props): Metadata {
-  const category = CATEGORIES.find((c) => c.slug === params.slug);
+interface PageProps {
+  params: Promise<{
+    slug: string;
+  }>;
+}
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const category = CATEGORIES.find((c) => c.slug === slug);
 
   if (!category) return {};
 
-  const title = `${category.name} | Arigio Audio e Iluminación`;
-  const description = category.description;
+  const title = `${category.name} | Renta de Audio e Iluminación CDMX | Arigio Audio e Iluminación`;
+  const description = `${category.description}. Equipos profesionales de audio, iluminación, estructuras, pantallas y más en Ciudad de México.`;
   const url = `https://www.arigioaudioeiluminacion.com.mx/categories/${category.slug}`;
+  const imageUrl = `https://www.arigioaudioeiluminacion.com.mx${category.image}`;
 
   return {
     title,
@@ -34,7 +39,7 @@ export function generateMetadata({ params }: Props): Metadata {
       url,
       images: [
         {
-          url: category.image,
+          url: imageUrl,
           alt: category.alt,
         },
       ],
@@ -48,13 +53,19 @@ export function generateMetadata({ params }: Props): Metadata {
   };
 }
 
-export default function CategoryPage({ params }: Props) {
-  const category = CATEGORIES.find((cat) => cat.slug === params.slug);
+export default async function CategoryPage({ params }: PageProps) {
+  const { slug } = await params;
+  const category = CATEGORIES.find((cat) => cat.slug === slug);
   if (!category) return notFound();
 
   const filteredProducts = PRODUCTS.filter(
     (product) => product.categoryId === category.id,
   );
 
-  return <PaginatedCategory category={category} products={filteredProducts} />;
+  return (
+    <Suspense
+      fallback={<div className='text-center py-10'>Cargando productos...</div>}>
+      <PaginatedCategory category={category} products={filteredProducts} />
+    </Suspense>
+  );
 }

@@ -16,6 +16,9 @@ import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { LocationSection } from '@/components/sections/LocationSection';
 import Link from 'next/link';
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { toast } from 'sonner';
 
 const contactSchema = z.object({
   name: z.string().min(2, 'Tu nombre es requerido'),
@@ -26,18 +29,48 @@ const contactSchema = z.object({
 type ContactFormData = z.infer<typeof contactSchema>;
 
 export const ContactSection = () => {
+  const [cooldown, setCooldown] = useState(false);
+  const [loading, setLoading] = useState(false);
+
   const form = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
+    defaultValues: {
+      name: '',
+      email: '',
+      message: '',
+    },
   });
 
-  const onSubmit = (data: ContactFormData) => {
-    console.log('Formulario enviado:', data);
+  const onSubmit = async (data: ContactFormData) => {
+    setLoading(true);
+    try {
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        {
+          name: data.name,
+          email: data.email,
+          message: data.message,
+        },
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
+      );
+
+      form.reset();
+      toast.success('¡Mensaje enviado con éxito!');
+      setCooldown(true);
+      setTimeout(() => setCooldown(false), 30000);
+    } catch (error) {
+      console.error(error);
+      toast.error('Ocurrió un error al enviar el mensaje.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
     <section
       id='contacto'
-      className='w-full px-4 md:px-8 py-16 bg-white'
+      className='w-full px-4 md:px-8 py-20 bg-white'
       aria-labelledby='contact-heading'>
       <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12'>
         {/* Información */}
@@ -147,16 +180,14 @@ export const ContactSection = () => {
 
               <Button
                 type='submit'
-                disabled={form.formState.isSubmitting}
+                disabled={form.formState.isSubmitting || loading || cooldown}
                 className='w-full bg-indigo-600 hover:bg-indigo-700 text-white'>
-                {form.formState.isSubmitting ? 'Enviando...' : 'Enviar mensaje'}
+                {loading
+                  ? 'Enviando...'
+                  : cooldown
+                  ? 'Mensaje enviado. Espera un momento antes de enviar otro.'
+                  : 'Enviar mensaje'}
               </Button>
-
-              {form.formState.isSubmitSuccessful && (
-                <p className='text-green-600 font-medium'>
-                  ¡Mensaje enviado con éxito!
-                </p>
-              )}
             </form>
           </Form>
         </div>

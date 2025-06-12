@@ -8,11 +8,12 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { CATEGORIES } from '@/constants/categories';
 
 type Props = {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const product = await getProductById(params.id);
+  const { id } = await params;
+  const product = await getProductById(id);
 
   if (!product) {
     return {
@@ -20,9 +21,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const title = `${product.name} | Arigio Audio e Iluminación`;
-  const description =
-    product.description || 'Equipo profesional de audio e iluminación.';
+  const title = `${product.name} | Renta de Audio e Iluminación Profesional CDMX | Arigio Audio e Iluminación`;
+  const description = `${product.description}. Equipo profesional de audio, iluminación, estructuras, efectos especiales y más para eventos en Ciudad de México.`;
 
   return {
     title,
@@ -47,12 +47,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function ProductPage({
-  params,
-}: {
-  params: { id: string };
-}) {
-  const product = await getProductById(params.id);
+export default async function ProductPage({ params }: Props) {
+  const { id } = await params;
+  const product = await getProductById(id);
   if (!product) return notFound();
 
   const category = CATEGORIES.find((c) => c.id === product.categoryId);

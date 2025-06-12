@@ -5,9 +5,9 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Categorías | Arigio Audio e Iluminación',
+  title: 'Categorías de Productos | Arigio Audio e Iluminación CDMX',
   description:
-    'Explora nuestras categorías de productos: audio, iluminación, estructuras, pantallas y más para tus eventos y espectáculos en Ciudad de México.',
+    'Renta de audio, iluminación, estructuras, pantallas LED, bafles y maquinaria profesional para eventos y espectáculos en Ciudad de México. Explora todas nuestras categorías de productos.',
 };
 
 export default function CategoriesPage() {
