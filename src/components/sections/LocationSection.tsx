@@ -20,7 +20,7 @@ export const LocationSection = () => {
       <div className='aspect-video w-full rounded-xl overflow-hidden shadow-md border'>
         <iframe
           title='Ubicación de Arigio Audio e Iluminación'
-          src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15052.349397990012!2d-99.138435!3d19.428762!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDI1JzQzLjYiTiA5OcKwMDgnMTguNCJX!5e0!3m2!1ses-419!2smx!4v1718052450000!5m2!1ses-419!2smx'
+          src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d235.16374932045545!2d-99.13841293639162!3d19.428818421404547!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff000a35f501%3A0x525c3d6d93875013!2sARIGIO!5e0!3m2!1ses!2smx!4v1749754880255!5m2!1ses!2smx'
           width='100%'
           height='100%'
           style={{ border: 0 }}

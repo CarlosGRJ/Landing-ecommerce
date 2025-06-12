@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -16,14 +17,18 @@ import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { LocationSection } from '@/components/sections/LocationSection';
 import Link from 'next/link';
-import { useState } from 'react';
+
 import emailjs from '@emailjs/browser';
 import { toast } from 'sonner';
+import Turnstile from 'react-cloudflare-turnstile';
 
 const contactSchema = z.object({
   name: z.string().min(2, 'Tu nombre es requerido'),
   email: z.string().email('Correo inválido'),
   message: z.string().min(10, 'Mensaje muy corto'),
+  turnstileToken: z
+    .string()
+    .min(1, 'Por favor, completa el captcha antes de enviar.'),
 });
 
 type ContactFormData = z.infer<typeof contactSchema>;
@@ -38,11 +43,13 @@ export const ContactSection = () => {
       name: '',
       email: '',
       message: '',
+      turnstileToken: '',
     },
   });
 
   const onSubmit = async (data: ContactFormData) => {
     setLoading(true);
+
     try {
       await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
@@ -108,12 +115,12 @@ export const ContactSection = () => {
               <strong>Horario:</strong> Lunes a Sábado de 10:00 a.m. a 7:00 p.m.
             </div>
             <div>
-              <strong>Ubicación:</strong> República de El Salvador, Centro
-              Histórico de la Ciudad de México, Colonia Centro, Cuauhtémoc, C.P.
-              06000, Ciudad de México, CDMX.
+              <strong>Ubicación:</strong> Calle de Mesones 26, local 3, Centro
+              Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06080 Ciudad
+              de México, CDMX
             </div>
             <Link
-              href='https://www.google.com/maps/dir/?api=1&destination=19.428762,-99.138435'
+              href='https://www.google.com/maps/dir/19.2996747,-99.1367468/Calle+de+Mesones+26-local+3,+Centro+Hist%C3%B3rico+de+la+Cdad.+de+M%C3%A9xico,+Centro,+Cuauht%C3%A9moc,+06080+Ciudad+de+M%C3%A9xico,+CDMX/@19.4287207,-99.1383934,21z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x85d1fed3b8ce9d8b:0xc9dc6c0727330626!2m2!1d-99.1383296!2d19.4288659?hl=es&entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D'
               target='_blank'
               rel='noopener noreferrer'
               className='inline-block mt-4 bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded-lg transition'>
@@ -171,6 +178,29 @@ export const ContactSection = () => {
                         rows={5}
                         placeholder='Escribe tu mensaje...'
                         {...field}
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
+              <FormField
+                control={form.control}
+                name='turnstileToken'
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Verificación</FormLabel>
+                    <FormControl>
+                      <Turnstile
+                        turnstileSiteKey={
+                          process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY!
+                        }
+                        callback={(token) => field.onChange(token)}
+                        theme='light'
+                        size='normal'
+                        retry='auto'
+                        refreshExpired='auto'
                       />
                     </FormControl>
                     <FormMessage />

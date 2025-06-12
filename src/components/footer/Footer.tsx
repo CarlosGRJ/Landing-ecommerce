@@ -66,8 +66,8 @@ export const Footer = () => {
             <li className='flex items-center gap-2'>
               <FaMapMarkerAlt className='text-indigo-600' />
               <address className='not-italic'>
-                República de El Salvador, Centro Histórico de la Ciudad de
-                México, Cuauhtémoc, 06000, CDMX
+                Calle de Mesones 26, local 3, Centro Histórico de la Cdad. de
+                México, Centro, Cuauhtémoc, 06080 Ciudad de México, CDMX
               </address>
             </li>
           </ul>
