@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: 'Arigio Audio e Iluminación',
     images: [
       {
-        url: '/images/og-home.jpg',
+        url: '/images/og-home.webp',
         alt: 'Arigio Audio e Iluminación - Equipo profesional para eventos',
       },
     ],
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title: 'Arigio Audio e Iluminación | CDMX',
     description:
       'Renta de equipo profesional para eventos, conciertos y espectáculos en Ciudad de México.',
-    images: ['/images/og-home.jpg'],
+    images: ['/images/og-home.webp'],
   },
   metadataBase: new URL('https://www.arigioaudioeiluminacion.com.mx'),
   creator: 'Carlos Gerardo Rojas Jaime - Web Developer',
