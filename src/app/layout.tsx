@@ -63,6 +63,18 @@ export const metadata: Metadata = {
       url: 'https://www.carlosrojasj.dev',
     },
   ],
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  other: {
+    'google-site-verification': 'QebEE38PB-fsiCHRFUOryz-QF0QhMZo3oCgFT5qnZXM',
+  },
 };
 
 export default function RootLayout({
