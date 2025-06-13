@@ -24,7 +24,7 @@ export const Footer = () => {
             Arigio Audio e Iluminación
           </h2>
           <p>
-            Renta de equipo profesional de audio, iluminación, estructuras,
+            Venta de equipo profesional de audio, iluminación, estructuras,
             pantallas y maquinaria de humo para eventos y espectáculos en Ciudad
             de México.
           </p>

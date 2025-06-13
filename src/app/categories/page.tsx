@@ -7,7 +7,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Categorías de Productos | Arigio Audio e Iluminación CDMX',
   description:
-    'Renta de audio, iluminación, estructuras, pantallas LED, bafles y maquinaria profesional para eventos y espectáculos en Ciudad de México. Explora todas nuestras categorías de productos.',
+    'Venta de audio, iluminación, estructuras, pantallas LED, bafles y maquinaria profesional para eventos y espectáculos en Ciudad de México. Explora todas nuestras categorías de productos.',
 };
 
 export default function CategoriesPage() {

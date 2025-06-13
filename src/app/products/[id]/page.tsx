@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const title = `${product.name} | Renta de Audio e Iluminación Profesional CDMX | Arigio Audio e Iluminación`;
+  const title = `${product.name} | Venta de Audio e Iluminación Profesional CDMX | Arigio Audio e Iluminación`;
   const description = `${product.description}. Equipo profesional de audio, iluminación, estructuras, efectos especiales y más para eventos en Ciudad de México.`;
 
   return {

@@ -21,11 +21,11 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: 'Arigio Audio e Iluminación | Renta de equipo profesional CDMX',
+  title: 'Arigio Audio e Iluminación | Venta de equipo profesional CDMX',
   description:
-    'Renta de audio profesional, iluminación, estructuras, pantallas y maquinaria para eventos en Ciudad de México. Contáctanos para cotización inmediata.',
+    'Venta de audio profesional, iluminación, estructuras, pantallas y maquinaria para eventos en Ciudad de México. Contáctanos para cotización inmediata.',
   keywords: [
-    'renta de audio',
+    'venta de audio',
     'iluminación eventos',
     'estructuras truss',
     'pantallas LED',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Arigio Audio e Iluminación',
     description:
-      'Renta de audio, iluminación y equipo profesional para eventos y espectáculos en CDMX.',
+      'Venta de audio, iluminación y equipo profesional para eventos y espectáculos en CDMX.',
     url: 'https://www.arigioaudioeiluminacion.com.mx',
     siteName: 'Arigio Audio e Iluminación',
     images: [
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Arigio Audio e Iluminación | CDMX',
     description:
-      'Renta de equipo profesional para eventos, conciertos y espectáculos en Ciudad de México.',
+      'Venta de equipo profesional para eventos, conciertos y espectáculos en Ciudad de México.',
     images: ['/images/og-home.webp'],
   },
   metadataBase: new URL('https://www.arigioaudioeiluminacion.com.mx'),

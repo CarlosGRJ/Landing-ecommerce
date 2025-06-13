@@ -25,7 +25,7 @@ export async function generateMetadata({
 
   if (!category) return {};
 
-  const title = `${category.name} | Renta de Audio e Iluminación CDMX | Arigio Audio e Iluminación`;
+  const title = `${category.name} | Venta de Audio e Iluminación CDMX | Arigio Audio e Iluminación`;
   const description = `${category.description}. Equipos profesionales de audio, iluminación, estructuras, pantallas y más en Ciudad de México.`;
   const url = `https://www.arigioaudioeiluminacion.com.mx/categories/${category.slug}`;
   const imageUrl = `https://www.arigioaudioeiluminacion.com.mx${category.image}`;
