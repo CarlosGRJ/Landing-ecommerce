@@ -6,6 +6,9 @@ import { ContactSection } from '@/components/sections/ContactSection';
 import { Footer } from '@/components/footer/Footer';
 import { Toaster } from '@/components/ui/sonner';
 
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
@@ -92,6 +95,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${montserrat.className} antialiased bg-white text-gray-900`}>
         <Navbar03Page />
         <main>{children}</main>
+        <Analytics />
+        <SpeedInsights />
         <ContactSection />
         <Footer />
         <Toaster richColors />
