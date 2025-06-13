@@ -38,7 +38,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
           {product.name}
         </h3>
         {product.description && (
-          <p className='text-sm text-gray-600 mt-1' itemProp='description'>
+          <p className='text-sm text-gray-700 mt-1' itemProp='description'>
             {product.description}
           </p>
         )}
@@ -55,7 +55,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
 
         <Link
           href={`/products/${product.id}`}
-          aria-label={`Ver detalles de ${product.name}`}>
+          aria-label={`Ver detalles del producto ${product.name}`}>
           <Button className='w-full bg-gray-200 hover:bg-gray-300 text-gray-900 mt-2'>
             Ver detalles
           </Button>

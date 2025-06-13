@@ -44,7 +44,7 @@ export default function PaginatedCategory({ category, products }: Props) {
           className='text-4xl font-bold text-gray-900 mb-2'>
           {category.name}
         </h1>
-        <p className='text-gray-600'>{category.description}</p>
+        <p className='text-gray-700'>{category.description}</p>
       </header>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10'>

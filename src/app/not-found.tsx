@@ -8,7 +8,7 @@ export default function NotFoundPage() {
       <div className='max-w-md text-center'>
         <h1 className='text-6xl font-bold text-indigo-600 mb-6'>404</h1>
         <h2 className='text-2xl font-semibold mb-4'>Página no encontrada</h2>
-        <p className='text-gray-600 mb-8'>
+        <p className='text-gray-700 mb-8'>
           Lo sentimos, la página que estás buscando no existe o ha sido movida.
         </p>
 

@@ -21,7 +21,7 @@ export default function CategoriesPage() {
           className='text-4xl font-bold text-gray-900 mb-4'>
           Categorías de Productos
         </h1>
-        <p className='text-lg text-gray-600'>
+        <p className='text-lg text-gray-700'>
           Descubre la variedad de equipos y soluciones que ofrecemos para hacer
           de tu evento un éxito.
         </p>
@@ -60,7 +60,7 @@ export default function CategoriesPage() {
                   className={`text-xl font-semibold ${category.color} mb-2`}>
                   {category.name}
                 </CardTitle>
-                <p className='text-gray-600 text-sm'>{category.description}</p>
+                <p className='text-gray-700 text-sm'>{category.description}</p>
               </CardContent>
             </Card>
           </Link>

@@ -12,7 +12,7 @@ interface BreadcrumbsProps {
 
 export const Breadcrumbs = ({ crumbs }: BreadcrumbsProps) => {
   return (
-    <nav className='text-sm text-gray-600 mb-6' aria-label='Breadcrumb'>
+    <nav className='text-sm text-gray-700 mb-6' aria-label='Breadcrumb'>
       <ol className='flex items-center space-x-2'>
         {crumbs.map((crumb, index) => (
           <li key={index} className='flex items-center'>

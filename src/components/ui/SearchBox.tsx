@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { Input } from '@/components/ui/input';
 import { Search } from 'lucide-react';
+import { Button } from './button';
 
 export const SearchBox = () => {
   const router = useRouter();
@@ -28,11 +29,12 @@ export const SearchBox = () => {
         onChange={(e) => setQuery(e.target.value)}
         aria-label='Buscar productos'
       />
-      <button
+      <Button
         type='submit'
-        className='p-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition'>
+        className='p-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition'
+        aria-label='Buscar'>
         <Search className='w-5 h-5' />
-      </button>
+      </Button>
     </form>
   );
 };

@@ -36,7 +36,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
       </header>
 
       {!query ? (
-        <p className='text-gray-600 text-center'>
+        <p className='text-gray-700 text-center'>
           Ingresa un término de búsqueda.
         </p>
       ) : allResults.length === 0 ? (

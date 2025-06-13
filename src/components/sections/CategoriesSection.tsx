@@ -15,7 +15,7 @@ export default function CategoriesSection() {
           className='text-4xl font-bold text-gray-900'>
           Explora nuestras categorías
         </h2>
-        <p className='text-lg text-gray-600 mt-2'>
+        <p className='text-lg text-gray-700 mt-2'>
           Equipos profesionales de audio, iluminación, estructuras y más.
         </p>
       </header>
@@ -42,7 +42,7 @@ export default function CategoriesSection() {
                 <h3 className={`text-xl font-semibold ${item.color}`}>
                   {item.name}
                 </h3>
-                <p className='text-gray-600 mt-2'>{item.description}</p>
+                <p className='text-gray-700 mt-2'>{item.description}</p>
               </div>
             </div>
           </Link>

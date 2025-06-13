@@ -12,7 +12,7 @@ export const LocationSection = () => {
           className='text-3xl md:text-4xl font-extrabold text-gray-900'>
           ¿Dónde estamos ubicados?
         </h2>
-        <p className='mt-2 text-lg text-gray-600'>
+        <p className='mt-2 text-lg text-gray-700'>
           Ven a visitarnos en el corazón de la Ciudad de México.
         </p>
       </header>
