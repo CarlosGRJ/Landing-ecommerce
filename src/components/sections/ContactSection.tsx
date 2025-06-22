@@ -120,7 +120,7 @@ export const ContactSection = () => {
               de México, CDMX
             </div>
             <Link
-              href='https://www.google.com/maps/dir/19.2996747,-99.1367468/Calle+de+Mesones+26-local+3,+Centro+Hist%C3%B3rico+de+la+Cdad.+de+M%C3%A9xico,+Centro,+Cuauht%C3%A9moc,+06080+Ciudad+de+M%C3%A9xico,+CDMX/@19.4287207,-99.1383934,21z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x85d1fed3b8ce9d8b:0xc9dc6c0727330626!2m2!1d-99.1383296!2d19.4288659?hl=es&entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D'
+              href='https://www.google.com/maps/dir/?api=1&destination=Calle+de+Mesones+26+local+3+Centro+Histórico+Ciudad+de+México+CDMX'
               target='_blank'
               rel='noopener noreferrer'
               className='inline-block mt-4 bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded-lg transition'>
