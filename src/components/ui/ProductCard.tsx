@@ -21,7 +21,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
           <Skeleton className='absolute top-0 left-0 w-full h-full rounded-none' />
         )}
         <Image
-          src={product.coverImage || product.images[0]}
+          src={product.coverImage || product.images[0] || '/images/no-image.webp'}
           alt={product.name}
           width={400}
           height={300}
@@ -54,7 +54,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
         </p>
 
         <Link
-          href={`/products/${product.id}`}
+          href={`/products/${product.slug}`}
           aria-label={`Ver detalles del producto ${product.name}`}>
           <Button className='w-full bg-gray-200 hover:bg-gray-300 text-gray-900 mt-2'>
             Ver detalles

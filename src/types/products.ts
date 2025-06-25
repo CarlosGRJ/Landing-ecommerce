@@ -11,6 +11,7 @@ export interface Category {
   id: string;
   name: string;
   description: string;
+  shortDesc: string;
   slug: string;
   color: string;
   image: string;

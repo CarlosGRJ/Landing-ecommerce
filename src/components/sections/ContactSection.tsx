@@ -115,7 +115,7 @@ export const ContactSection = () => {
               <strong>Horario:</strong> Lunes a Sábado de 10:00 a.m. a 7:00 p.m.
             </div>
             <div>
-              <strong>Ubicación:</strong> Calle de Mesones 26, local 3, Centro
+              <strong>Ubicación:</strong> Calle de Mesones 24, local 3, Centro
               Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06080 Ciudad
               de México, CDMX
             </div>

@@ -60,7 +60,7 @@ export default function CategoriesPage() {
                   className={`text-xl font-semibold ${category.color} mb-2`}>
                   {category.name}
                 </CardTitle>
-                <p className='text-gray-700 text-sm'>{category.description}</p>
+                <p className='text-gray-700 text-sm'>{category.shortDesc}</p>
               </CardContent>
             </Card>
           </Link>

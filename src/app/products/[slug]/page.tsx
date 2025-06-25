@@ -1,19 +1,19 @@
 import { notFound } from 'next/navigation';
-import { getProductById } from '@/constants/products';
 import { ProductGallery } from '@/components/ui/ProductGallery';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { CATEGORIES } from '@/constants/categories';
 import Head from 'next/head';
+import { getProductBySlug } from '@/lib/utils';
 
 type Props = {
-  params: Promise<{ id: string }>;
+  params: Promise<{ slug: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { id } = await params;
-  const product = await getProductById(id);
+  const { slug } = await params;
+  const product = await getProductBySlug(slug);
 
   if (!product) {
     return {
@@ -48,8 +48,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function ProductPage({ params }: Props) {
-  const { id } = await params;
-  const product = await getProductById(id);
+  const { slug } = await params;
+  const product = await getProductBySlug(slug);
   if (!product) return notFound();
 
   const category = CATEGORIES.find((c) => c.id === product.categoryId);

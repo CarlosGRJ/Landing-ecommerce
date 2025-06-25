@@ -2,17 +2,12 @@
 
 import { useSearchParams } from 'next/navigation';
 import { ProductCard } from '@/components/ui/ProductCard';
-import { Product } from '@/types/products';
+import { Category, Product } from '@/types/products';
 import Link from 'next/link';
 import { Breadcrumbs } from '../Breadcrumbs';
 
 interface Props {
-  category: {
-    id: string;
-    name: string;
-    slug: string;
-    description: string;
-  };
+  category: Category;
   products: Product[];
 }
 
@@ -60,7 +55,7 @@ export default function PaginatedCategory({ category, products }: Props) {
         {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
           <Link
             key={page}
-            href={`/categorias/${category.slug}?page=${page}`}
+            href={`/categories/${category.slug}?page=${page}`}
             scroll={false}
             className={`px-3 py-1 border rounded transition-colors duration-200 ${
               page === currentPage

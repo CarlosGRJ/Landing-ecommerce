@@ -41,11 +41,11 @@ export const ProductGallery = ({
           </video>
         ) : (
           <Image
-            src={images[selected]}
+            src={images[selected] || '/images/no-image.webp'}
             alt={`Imagen ${selected + 1} de ${productName}`}
             width={1000}
             height={600}
-            className='w-full h-full object-cover'
+            className='w-full h-full object-contain'
             priority
           />
         )}
@@ -87,7 +87,7 @@ export const ProductGallery = ({
                     alt={`Miniatura ${index + 1} de ${productName}`}
                     width={150}
                     height={100}
-                    className='w-full h-full object-cover'
+                    className='w-full h-full object-contain'
                   />
                 </button>
               </CarouselItem>

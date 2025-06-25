@@ -42,7 +42,7 @@ export default function CategoriesSection() {
                 <h3 className={`text-xl font-semibold ${item.color}`}>
                   {item.name}
                 </h3>
-                <p className='text-gray-700 mt-2'>{item.description}</p>
+                <p className='text-gray-700 mt-2'>{item.shortDesc}</p>
               </div>
             </div>
           </Link>
