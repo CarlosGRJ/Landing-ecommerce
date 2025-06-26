@@ -164,4 +164,37 @@ export const CATEGORIES: Category[] = [
     image: '/images/cables.webp',
     alt: 'Categoría Cables',
   },
+  {
+    id: 'humo-category',
+    name: 'Maquinaria de Humo',
+    slug: 'maquinaria-de-humo',
+    description:
+      'En esta categoría encontrarás equipos ideales para ambientar conciertos, escenarios, fiestas, clubes o presentaciones. Las máquinas de humo realzan la iluminación y los efectos visuales, generando un entorno envolvente y dinámico que cautiva al público. Disponibles en distintos tamaños y potencias, nuestras opciones se adaptan tanto a instalaciones móviles como a montajes fijos. Compatibles con control DMX y diseñadas para un rendimiento confiable y continuo.',
+    shortDesc: 'Efectos visuales para ambientar.',
+    color: 'text-indigo-600',
+    image: '/images/humo.webp',
+    alt: 'Máquina de humo en acción',
+  },
+  {
+    id: 'iluminacion-category',
+    name: 'Iluminación',
+    slug: 'iluminacion',
+    description:
+      'Descubre nuestra línea de soluciones de iluminación escénica, que incluye paneles LED, par lights, barras, efectos inteligentes y sistemas de control DMX. Cada producto está diseñado para ofrecer potencia, color, precisión y confiabilidad, ideales para conciertos, teatros, eventos sociales, clubs, templos, y producciones audiovisuales.',
+    shortDesc: 'Paneles, par LED, y sistemas de control.',
+    color: 'text-yellow-600',
+    image: '/images/iluminacion.webp',
+    alt: 'Iluminación de escenario',
+  },
+  {
+    id: 'luces-category',
+    name: 'Luces',
+    slug: 'luces',
+    description:
+      'Explora nuestra gama de luces LED, scanners y cabezas móviles diseñadas para elevar cualquier presentación visual. Ya sea que trabajes en eventos sociales, conciertos, iglesias o clubs nocturnos, nuestras luminarias ofrecen potencia, versatilidad y precisión.',
+    shortDesc: 'Luces LED, scanners y cabezas móviles.',
+    color: 'text-rose-600',
+    image: '/images/luces.webp',
+    alt: 'Luces profesionales para eventos',
+  },
 ];
