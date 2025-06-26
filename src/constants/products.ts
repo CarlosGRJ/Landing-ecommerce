@@ -1076,9 +1076,13 @@ export const PRODUCTS: Product[] = [
     slug: 'jzg-xds-9218sb',
     description: 'JZG XDS 9218SB',
     price: 20280.0,
-    coverImage: '',
-    images: [],
-    categoryId: '',
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750950418/JZG-XDS-9218SB-1_byc4eb.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750950418/JZG-XDS-9218SB-1_byc4eb.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750950418/JZG-XDS-9218SB-2_lbiq2o.webp',
+    ],
+    categoryId: 'subwoofers-category',
     features: [],
     videoUrl: '',
   },
@@ -1100,9 +1104,12 @@ export const PRODUCTS: Product[] = [
     slug: 'jzg-xds-1000sb',
     description: 'JZG XDS 1000SB',
     price: 13440.0,
-    coverImage: '',
-    images: [],
-    categoryId: '',
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750951258/JZG-XDS-1000-SB_a0thgt.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750951258/JZG-XDS-1000-SB_a0thgt.webp',
+    ],
+    categoryId: 'bafles-category',
     features: [],
     videoUrl: '',
   },
@@ -1208,10 +1215,27 @@ export const PRODUCTS: Product[] = [
     slug: 'jzg-mla-210a',
     description: 'JZG-MLA-210A',
     price: 23850.0,
-    coverImage: '',
-    images: [],
-    categoryId: '',
-    features: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750952285/JZG-MLA-210-1_o5ozua.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750952285/JZG-MLA-210-1_o5ozua.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750952286/JZG-MLA-210-2_q5h6px.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750952286/JZG-MLA-210-3_avnf0p.webp',
+    ],
+    categoryId: 'bafles-category',
+    features: [
+      'Bafle Activo de 10” 2 Vías',
+      '1400W / 700W RMS',
+      '2 Altavoces de 10″ y un Driver de 3″',
+      'Rango de frecuencia: 60Hz-20kHz',
+      'Respuesta de frecuencia: 65Hz-18kHz(#3dB)',
+      'Sensibilidad: LF: 99dB, HF: 110dB',
+      'Impedancia: 8 ohms',
+      'SPL: 136 dB',
+      'DSP integrado, con 4 presets',
+      'Voltaje swich 120 o 220 V AC',
+      'Material: Madera de Abedul con Recubrimiento en Poliurea',
+    ],
     videoUrl: '',
   },
   {
@@ -4683,5 +4707,21 @@ export const PRODUCTS: Product[] = [
     categoryId: 'accesorios-category',
     features: [],
     videoUrl: '',
+  },
+  {
+    id: '87-estrobo-294w',
+    name: 'ESTROBO 294W',
+    description: 'ESTROBO 294W',
+    slug: 'estrobo-294w',
+    price: 747.21,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750953294/ESTROBO-294W_mcietd.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750953294/ESTROBO-294W_mcietd.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1750953004/ESTROBO-294W_okabjn.mp4',
   },
 ];
