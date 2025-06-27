@@ -197,4 +197,15 @@ export const CATEGORIES: Category[] = [
     image: '/images/luces.webp',
     alt: 'Luces profesionales para eventos',
   },
+  {
+    id: 'procesadores-audio-category',
+    name: 'Procesadores de audio',
+    slug: 'procesadores-audio',
+    description:
+      'Optimiza el sonido de tus eventos con nuestra selección de procesadores de audio profesionales. Desde crossovers digitales hasta DSPs avanzados, encuentra la herramienta ideal para lograr una mezcla limpia, precisa y bien definida en cualquier entorno.',
+    shortDesc: 'DSPs, crossovers y más.',
+    color: 'text-sky-600',
+    image: '/images/procesadores-de-audio.webp',
+    alt: 'Procesadores de audio profesionales',
+  },
 ];
