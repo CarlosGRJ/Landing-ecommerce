@@ -25,7 +25,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
           alt={product.name}
           width={400}
           height={300}
-          className={`w-full h-48 object-cover transition-opacity duration-300 ${
+          className={`w-full h-48 object-contain transition-opacity duration-300 ${
             imageLoaded ? 'opacity-100' : 'opacity-0'
           }`}
           onLoad={() => setImageLoaded(true)}
