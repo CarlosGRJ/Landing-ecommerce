@@ -83,7 +83,7 @@ export const ProductGallery = ({
                       : 'border-transparent'
                   }`}>
                   <Image
-                    src={img}
+                    src={img || '/images/no-image.webp'}
                     alt={`Miniatura ${index + 1} de ${productName}`}
                     width={150}
                     height={100}

@@ -13,7 +13,6 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750978885/mercury12-1_nps5cb.webp',
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750978887/mercury12-2_wfuwnv.webp',
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750978884/mercury12-3_b9xbqg.webp',
-      '',
     ],
     categoryId: 'bafles-category',
     features: [''],
