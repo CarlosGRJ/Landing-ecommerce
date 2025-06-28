@@ -1185,8 +1185,11 @@ export const PRODUCTS: Product[] = [
     slug: 'cables-xlrmf1',
     description: 'Cable audio XLR 1m',
     price: 55.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076959/XLRMF1-1_iiz7lg.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076959/XLRMF1-1_iiz7lg.webp',
+    ],
     categoryId: 'cables-category',
     features: [''],
     videoUrl: '',
@@ -1197,8 +1200,11 @@ export const PRODUCTS: Product[] = [
     slug: 'cables-xlrmf3',
     description: 'Cable audio XLR 3m',
     price: 62.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076945/XLRMF3-1_zncarq.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076945/XLRMF3-1_zncarq.webp',
+    ],
     categoryId: 'cables-category',
     features: [''],
     videoUrl: '',
@@ -1209,8 +1215,11 @@ export const PRODUCTS: Product[] = [
     slug: 'cables-xlrmf6',
     description: 'Cable audio XLR 6m',
     price: 83.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076954/XLRMF6-1_cqj6o0.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076954/XLRMF6-1_cqj6o0.webp',
+    ],
     categoryId: 'cables-category',
     features: [''],
     videoUrl: '',
@@ -1221,8 +1230,11 @@ export const PRODUCTS: Product[] = [
     slug: 'cables-xlrmf10',
     description: 'Cable audio XLR 10m',
     price: 108.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076949/XLRMF10-1_fcghwv.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076949/XLRMF10-1_fcghwv.webp',
+    ],
     categoryId: 'cables-category',
     features: [''],
     videoUrl: '',
@@ -1233,8 +1245,11 @@ export const PRODUCTS: Product[] = [
     slug: 'cables-xlrhmf1',
     description: 'Cable XLR profesional 1m',
     price: 69.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128445/XLRHMF1-1_wotfva.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128445/XLRHMF1-1_wotfva.webp',
+    ],
     categoryId: 'cables-category',
     features: [''],
     videoUrl: '',
@@ -1245,8 +1260,11 @@ export const PRODUCTS: Product[] = [
     slug: 'cables-xlrhmf3',
     description: 'Cable de audio XLR conector profesional 3m',
     price: 78.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128450/XLRHMF3-1_ukbecc.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128450/XLRHMF3-1_ukbecc.webp',
+    ],
     categoryId: 'cables-category',
     features: [''],
     videoUrl: '',
@@ -1257,8 +1275,11 @@ export const PRODUCTS: Product[] = [
     slug: 'cables-xlrhmf6',
     description: 'Cable de audio XLR conector profesional 6m',
     price: 116.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128455/XLRHMF6-1_lnajv2.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128455/XLRHMF6-1_lnajv2.webp',
+    ],
     categoryId: 'cables-category',
     features: [''],
     videoUrl: '',
@@ -1269,8 +1290,11 @@ export const PRODUCTS: Product[] = [
     slug: 'cables-xlrhmf10',
     description: 'Cable de audio XLR conector profesional 10m',
     price: 158.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128460/XLRHMF10-1_blivif.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128460/XLRHMF10-1_blivif.webp',
+    ],
     categoryId: 'cables-category',
     features: [''],
     videoUrl: '',
@@ -1281,8 +1305,11 @@ export const PRODUCTS: Product[] = [
     slug: 'cables-spk5',
     description: 'CABLE PARA BAFLE SPEAKON 16GA 5M',
     price: 78.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128435/SPK5-1_xnu6tp.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128435/SPK5-1_xnu6tp.webp',
+    ],
     categoryId: 'cables-category',
     features: [''],
     videoUrl: '',
@@ -1293,8 +1320,11 @@ export const PRODUCTS: Product[] = [
     slug: 'cables-spkh5',
     description: 'CABLE PARA BAFLE SPEAKON 16GA 10m',
     price: 109.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128440/SPKH5-1_omstpo.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128440/SPKH5-1_omstpo.webp',
+    ],
     categoryId: 'cables-category',
     features: [''],
     videoUrl: '',
