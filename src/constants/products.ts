@@ -752,8 +752,11 @@ export const PRODUCTS: Product[] = [
     slug: 'microfonos-inalambricos-pu-501',
     description: 'Micrófono inalámbrico UHF',
     price: 2065.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751068772/PU-501_1_dlejci.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751068772/PU-501_1_dlejci.webp',
+    ],
     categoryId: 'microfonos-inalambricos-category',
     features: [''],
     videoUrl: '',
@@ -764,8 +767,11 @@ export const PRODUCTS: Product[] = [
     slug: 'microfonos-inalambricos-pu-502',
     description: 'Micrófono inalámbrico UHF',
     price: 1712.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069052/PU-502-1_oiuxaz.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069052/PU-502-1_oiuxaz.webp',
+    ],
     categoryId: 'microfonos-inalambricos-category',
     features: [''],
     videoUrl: '',
@@ -776,8 +782,11 @@ export const PRODUCTS: Product[] = [
     slug: 'microfonos-inalambricos-pu-616',
     description: 'Micrófono inalámbrico UHF',
     price: 3092.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069122/PU-616-1_dhl7yv.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069122/PU-616-1_dhl7yv.webp',
+    ],
     categoryId: 'microfonos-inalambricos-category',
     features: [''],
     videoUrl: '',
@@ -788,8 +797,12 @@ export const PRODUCTS: Product[] = [
     slug: 'microfonos-inalambricos-ur-700',
     description: 'Micrófono inalámbrico UHF',
     price: 3370.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069233/UR-700-1_a8ush5.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069233/UR-700-1_a8ush5.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069232/UR-700-2_ytb7mz.webp',
+    ],
     categoryId: 'microfonos-inalambricos-category',
     features: [''],
     videoUrl: '',
@@ -800,8 +813,11 @@ export const PRODUCTS: Product[] = [
     slug: 'microfonos-inalambricos-pu-703',
     description: 'Micrófono inalámbrico UHF',
     price: 2109.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069359/PU-703-1_khq9v4.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069359/PU-703-1_khq9v4.webp',
+    ],
     categoryId: 'microfonos-inalambricos-category',
     features: [''],
     videoUrl: '',
@@ -812,8 +828,11 @@ export const PRODUCTS: Product[] = [
     slug: 'microfonos-inalambricos-pu-704',
     description: 'Micrófono inalámbrico UHF',
     price: 2825.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069707/PU-704-1_atepbe.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069707/PU-704-1_atepbe.webp',
+    ],
     categoryId: 'microfonos-inalambricos-category',
     features: [''],
     videoUrl: '',
@@ -824,8 +843,11 @@ export const PRODUCTS: Product[] = [
     slug: 'microfonos-inalambricos-pu-705',
     description: 'Micrófono inalámbrico UHF',
     price: 2630.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072306/PU-705-1_djwqwv.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072306/PU-705-1_djwqwv.webp',
+    ],
     categoryId: 'microfonos-inalambricos-category',
     features: [''],
     videoUrl: '',
@@ -836,8 +858,11 @@ export const PRODUCTS: Product[] = [
     slug: 'microfonos-inalambricos-pu-5500',
     description: 'Micrófono inalámbrico UHF 4pzas',
     price: 6461.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072375/PU-5500-1_hzk34b.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072375/PU-5500-1_hzk34b.webp',
+    ],
     categoryId: 'microfonos-inalambricos-category',
     features: [''],
     videoUrl: '',
@@ -848,8 +873,11 @@ export const PRODUCTS: Product[] = [
     slug: 'microfonos-inalambricos-ur-690',
     description: 'Micrófono inalámbrico UHF',
     price: 2984.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072492/UR-690-1_igokkb.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072492/UR-690-1_igokkb.webp',
+    ],
     categoryId: 'microfonos-inalambricos-category',
     features: [''],
     videoUrl: '',
@@ -860,8 +888,11 @@ export const PRODUCTS: Product[] = [
     slug: 'mezcladoras-502usb',
     description: 'Mezcladora 1ch mono + 2st USB',
     price: 1288.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072843/502USB-1_mabwf6.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072843/502USB-1_mabwf6.webp',
+    ],
     categoryId: 'mezcladoras-category',
     features: [''],
     videoUrl: '',
@@ -873,8 +904,11 @@ export const PRODUCTS: Product[] = [
     description:
       'Mezcladora 8ch mono + 2st USB, EQ grafico de 7 bandas y procesador de efectos',
     price: 4851.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072848/PMX-120DSP-1_lkdqoh.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072848/PMX-120DSP-1_lkdqoh.webp',
+    ],
     categoryId: 'mezcladoras-category',
     features: [''],
     videoUrl: '',
@@ -886,8 +920,12 @@ export const PRODUCTS: Product[] = [
     description:
       'Mezcladora 12ch mono + 2st USB, EQ grafico de 7 bandas y procesador de efectos',
     price: 5431.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072840/PMX-160DSP-1_kqbgez.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072840/PMX-160DSP-1_kqbgez.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072845/PMX-160DSP-2_kj7esv.webp',
+    ],
     categoryId: 'mezcladoras-category',
     features: [''],
     videoUrl: '',
@@ -899,8 +937,11 @@ export const PRODUCTS: Product[] = [
     description:
       'Mezcladora 6 canales, ecualizador parametrico, ecualizador grafico, procesador de efectos',
     price: 3499,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751073056/SV-6-PRO-1_uouhqg.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751073056/SV-6-PRO-1_uouhqg.webp',
+    ],
     categoryId: 'mezcladoras-category',
     features: [''],
     videoUrl: '',
@@ -912,8 +953,11 @@ export const PRODUCTS: Product[] = [
     description:
       'Mezcladora 8 canales, ecualizador parametrico, ecualizador grafico, procesador de efectos',
     price: 4400.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751073053/SV-8-PRO-1_z1efhf.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751073053/SV-8-PRO-1_z1efhf.webp',
+    ],
     categoryId: 'mezcladoras-category',
     features: [''],
     videoUrl: '',
@@ -925,8 +969,11 @@ export const PRODUCTS: Product[] = [
     description:
       'Mezcladora 12 canales, ecualizador parametrico, ecualizador grafico, procesador de efectos',
     price: 5173.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751073914/SV-12-PRO-1_uccrws.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751073914/SV-12-PRO-1_uccrws.webp',
+    ],
     categoryId: 'mezcladoras-category',
     features: [''],
     videoUrl: '',
@@ -938,8 +985,11 @@ export const PRODUCTS: Product[] = [
     description:
       'MEZCLADORA * 3 ENTRADAS XLR, 2 SALIDAS XLR, PROCESADOR DE EFECTOS',
     price: 2159.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074386/FV-6-1_kea1tf.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074386/FV-6-1_kea1tf.webp',
+    ],
     categoryId: 'mezcladoras-category',
     features: [''],
     videoUrl: '',
@@ -951,8 +1001,11 @@ export const PRODUCTS: Product[] = [
     description:
       'MEZCLADORA *5 ENTRADAS XLR, *2 SALIDAS XLR, PROCESADOR DE EFECTOS',
     price: 2468.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074389/FV-8-1_ikbmru.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074389/FV-8-1_ikbmru.webp',
+    ],
     categoryId: 'mezcladoras-category',
     features: [''],
     videoUrl: '',
@@ -964,8 +1017,11 @@ export const PRODUCTS: Product[] = [
     description:
       'MEZCLADORA *8 ENTRADAS XLR, *2 SALIDAS XLR, *4 SALIDAS ASIGNABLES EN XLR',
     price: 7229.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074766/MV-12-PRO-1_dnkbzx.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074766/MV-12-PRO-1_dnkbzx.webp',
+    ],
     categoryId: 'mezcladoras-category',
     features: [''],
     videoUrl: '',
@@ -977,8 +1033,11 @@ export const PRODUCTS: Product[] = [
     description:
       'MEZCLADORA *12 ENTRADAS XLR, *2 SALIDAS XLR, *4 SALIDAS ASIGNABLES',
     price: 8360.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074759/MV-16-PRO-1_rnxuqu.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074759/MV-16-PRO-1_rnxuqu.webp',
+    ],
     categoryId: 'mezcladoras-category',
     features: [''],
     videoUrl: '',
@@ -990,8 +1049,11 @@ export const PRODUCTS: Product[] = [
     description:
       'MEZCLADORA *20 ENTRADAS XLR, *2 SALIDAS XLR, *4 SALIDAS ASIGNABLES',
     price: 12206.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074762/MV-24-PRO-1_djicw5.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074762/MV-24-PRO-1_djicw5.webp',
+    ],
     categoryId: 'mezcladoras-category',
     features: [''],
     videoUrl: '',
@@ -1002,8 +1064,8 @@ export const PRODUCTS: Product[] = [
     slug: 'accesorios-gs-305',
     description: 'Soporte para micrófono reforzado con boom, a 2 vias',
     price: 443.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage: '',
+    images: [''],
     categoryId: 'accesorios-category',
     features: [''],
     videoUrl: '',
@@ -1014,8 +1076,8 @@ export const PRODUCTS: Product[] = [
     slug: 'accesorios-gs-305',
     description: 'Soporte para micrófono reforzado con boom',
     price: 396.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage: '',
+    images: [''],
     categoryId: 'accesorios-category',
     features: [''],
     videoUrl: '',
@@ -1026,8 +1088,8 @@ export const PRODUCTS: Product[] = [
     slug: 'accesorios-gs-305',
     description: 'Soporte para micrófono reforzado con boom',
     price: 524.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage: '',
+    images: [''],
     categoryId: 'accesorios-category',
     features: [''],
     videoUrl: '',
@@ -1038,8 +1100,8 @@ export const PRODUCTS: Product[] = [
     slug: 'accesorios-gs-305',
     description: 'Poste para subwoofer, capacidad de carga máxima 50kg',
     price: 210.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage: '',
+    images: [''],
     categoryId: 'accesorios-category',
     features: [''],
     videoUrl: '',
@@ -1050,8 +1112,8 @@ export const PRODUCTS: Product[] = [
     slug: 'accesorios-gs-305',
     description: 'TRIPIE REFORXADO PARA BAFLE, CARGA MAXIMA 60 KG',
     price: 455.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage: '',
+    images: [''],
     categoryId: 'accesorios-category',
     features: [''],
     videoUrl: '',
@@ -1062,8 +1124,12 @@ export const PRODUCTS: Product[] = [
     slug: 'accesorios-gs-305',
     description: 'Atril guitarra acústica/eléctrica/bajo',
     price: 173.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751075471/GS-305-1_r883kx.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751075471/GS-305-1_r883kx.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751075468/GS-305-2_syenan.webp',
+    ],
     categoryId: 'accesorios-category',
     features: [''],
     videoUrl: '',
@@ -1074,8 +1140,11 @@ export const PRODUCTS: Product[] = [
     slug: 'accesorios-bgs-101',
     description: 'Banco pie guitarrista',
     price: 122.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751075583/BGS-101-1_hq3ejn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751075583/BGS-101-1_hq3ejn.webp',
+    ],
     categoryId: 'accesorios-category',
     features: [''],
     videoUrl: '',
@@ -1086,8 +1155,11 @@ export const PRODUCTS: Product[] = [
     slug: 'accesorios-kss-101',
     description: 'Asiento ajustable pianista',
     price: 354.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751075650/KSS-101-1_oj1u8a.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751075650/KSS-101-1_oj1u8a.webp',
+    ],
     categoryId: 'accesorios-category',
     features: [''],
     videoUrl: '',
@@ -1098,8 +1170,11 @@ export const PRODUCTS: Product[] = [
     slug: 'accesorios-stm-101',
     description: 'Tripié para micrófono de mesa',
     price: 135.0,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751075737/STM-101-1_zzqsjf.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751075737/STM-101-1_zzqsjf.webp',
+    ],
     categoryId: 'accesorios-category',
     features: [''],
     videoUrl: '',
