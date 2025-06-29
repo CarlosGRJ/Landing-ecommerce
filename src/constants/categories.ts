@@ -208,4 +208,15 @@ export const CATEGORIES: Category[] = [
     image: '/images/procesadores-de-audio.webp',
     alt: 'Procesadores de audio profesionales',
   },
+  {
+    id: 'bocinas-category',
+    name: 'Bocinas y Drivers',
+    slug: 'bocinas-y-drivers',
+    description:
+      'Potencia tu sonido con nuestra gama de bocinas y drivers profesionales. Desde bocinas hasta drivers de alta frecuencia, encuentra los componentes ideales para lograr un audio potente, claro y preciso en cualquier aplicación sonora.',
+    shortDesc: 'Bocinas, drivers y más.',
+    color: 'text-indigo-600',
+    image: '/images/bocinas-category.webp',
+    alt: 'Bocinas y drivers profesionales',
+  },
 ];
