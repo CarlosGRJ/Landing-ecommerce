@@ -219,4 +219,15 @@ export const CATEGORIES: Category[] = [
     image: '/images/bocinas-category.webp',
     alt: 'Bocinas y drivers profesionales',
   },
+  {
+    id: 'diafragmas-category',
+    name: 'Diafragmas',
+    slug: 'diafragmas',
+    description:
+      'Garantiza un sonido preciso y de alta fidelidad con nuestra selección de diafragmas para drivers profesionales. Contamos con opciones compatibles con distintas marcas y modelos, ideales para mantener o mejorar el rendimiento de tus sistemas de audio.',
+    shortDesc: 'Repuestos para drivers.',
+    color: 'text-amber-600',
+    image: '/images/diafragmas-category.webp',
+    alt: 'Diafragmas para drivers de audio',
+  },
 ];
