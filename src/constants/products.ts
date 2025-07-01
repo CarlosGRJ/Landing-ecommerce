@@ -3317,8 +3317,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-mic-1-5',
     price: 200,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334758/JZG-MIC_1.5M_1_pfxohn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334758/JZG-MIC_1.5M_1_pfxohn.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3329,8 +3332,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-mic-3m',
     price: 245,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334758/JZG-MIC_1.5M_1_pfxohn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334758/JZG-MIC_1.5M_1_pfxohn.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3341,8 +3347,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-mic-6m',
     price: 320,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334758/JZG-MIC_1.5M_1_pfxohn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334758/JZG-MIC_1.5M_1_pfxohn.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3353,8 +3362,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-mic-10m',
     price: 400,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334758/JZG-MIC_1.5M_1_pfxohn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334758/JZG-MIC_1.5M_1_pfxohn.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3365,8 +3377,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-mic-15m',
     price: 500,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334758/JZG-MIC_1.5M_1_pfxohn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334758/JZG-MIC_1.5M_1_pfxohn.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3377,8 +3392,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-mic-20m',
     price: 640,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334758/JZG-MIC_1.5M_1_pfxohn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334758/JZG-MIC_1.5M_1_pfxohn.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3389,8 +3407,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-high-imp-1-5m',
     price: 195,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334979/JZG_HIGH-IMP_1.5M_1_h6yhh8.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334979/JZG_HIGH-IMP_1.5M_1_h6yhh8.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3401,8 +3422,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-high-imp-3m',
     price: 240,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334979/JZG_HIGH-IMP_1.5M_1_h6yhh8.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334979/JZG_HIGH-IMP_1.5M_1_h6yhh8.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3413,8 +3437,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-high-imp-6m',
     price: 315,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334979/JZG_HIGH-IMP_1.5M_1_h6yhh8.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334979/JZG_HIGH-IMP_1.5M_1_h6yhh8.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3425,8 +3452,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-high-imp-10m',
     price: 385,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334979/JZG_HIGH-IMP_1.5M_1_h6yhh8.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334979/JZG_HIGH-IMP_1.5M_1_h6yhh8.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3437,8 +3467,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-high-imp-15m',
     price: 490,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334979/JZG_HIGH-IMP_1.5M_1_h6yhh8.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751334979/JZG_HIGH-IMP_1.5M_1_h6yhh8.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3449,8 +3482,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-patch-1-5m',
     price: 195,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335168/JZG_PATCH-1.5M_2_vwygzb.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335168/JZG_PATCH-1.5M_2_vwygzb.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3461,8 +3497,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-patch-3m',
     price: 240,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335168/JZG_PATCH-1.5M_2_vwygzb.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335168/JZG_PATCH-1.5M_2_vwygzb.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3473,8 +3512,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-patch-6m',
     price: 315,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335168/JZG_PATCH-1.5M_2_vwygzb.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335168/JZG_PATCH-1.5M_2_vwygzb.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3485,8 +3527,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-patch-10m',
     price: 385,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335168/JZG_PATCH-1.5M_2_vwygzb.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335168/JZG_PATCH-1.5M_2_vwygzb.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3497,8 +3542,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-inst-1-5m',
     price: 195,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335966/JLS-INTS_lxegdc.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335966/JLS-INTS_lxegdc.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3509,8 +3557,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-inst-3m',
     price: 240,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335966/JLS-INTS_lxegdc.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335966/JLS-INTS_lxegdc.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3521,8 +3572,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-inst-6m',
     price: 315,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335966/JLS-INTS_lxegdc.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335966/JLS-INTS_lxegdc.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3533,8 +3587,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-inst-10m',
     price: 385,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335966/JLS-INTS_lxegdc.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751335966/JLS-INTS_lxegdc.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3545,8 +3602,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-dj1-1-5m',
     price: 170,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336427/JZG-DJX1_1_ozh8g4.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336427/JZG-DJX1_1_ozh8g4.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3557,8 +3617,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-dj1-3m',
     price: 210,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336427/JZG-DJX1_1_ozh8g4.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336427/JZG-DJX1_1_ozh8g4.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3569,8 +3632,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-dj2-1-5m',
     price: 170,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336430/JZG-DJX2_1.5M_2_ygaqbx.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336430/JZG-DJX2_1.5M_2_ygaqbx.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3581,8 +3647,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-dj2-3m',
     price: 210,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336430/JZG-DJX2_1.5M_2_ygaqbx.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336430/JZG-DJX2_1.5M_2_ygaqbx.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3593,8 +3662,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-dj3-1-5m',
     price: 170,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336425/JZG_DJX3_1_tpyim2.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336425/JZG_DJX3_1_tpyim2.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3605,8 +3677,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-dj3-3m',
     price: 210,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336425/JZG_DJX3_1_tpyim2.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336425/JZG_DJX3_1_tpyim2.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3617,8 +3692,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-dj4-1-5m',
     price: 260,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336428/JZG-DJX4_1_urvams.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336428/JZG-DJX4_1_urvams.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3629,8 +3707,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-dj4-3m',
     price: 350,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336428/JZG-DJX4_1_urvams.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336428/JZG-DJX4_1_urvams.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3641,8 +3722,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-dj5-3-5',
     price: 170,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336669/JZG-DJX5_3.5_3.5_2_z6gmig.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751336669/JZG-DJX5_3.5_3.5_2_z6gmig.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3653,8 +3737,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jzg-spk-14-awg',
     price: 2150,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337437/JZG_SPK14_AWG_bx3wmk.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337437/JZG_SPK14_AWG_bx3wmk.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3665,8 +3752,11 @@ export const PRODUCTS: Product[] = [
     description: '',
     slug: 'jls-2x24-awg',
     price: 1150,
-    coverImage: '/images/bafles.webp',
-    images: ['/images/bafles.webp'],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337435/JLS_2X24AWG_1_kj0fsb.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337435/JLS_2X24AWG_1_kj0fsb.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3677,8 +3767,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-mic-1-5',
     description: '',
     price: 150.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337578/JLS-MIC_1_k6isv8.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337578/JLS-MIC_1_k6isv8.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3689,8 +3782,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-mic-3m',
     description: '',
     price: 170.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337578/JLS-MIC_1_k6isv8.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337578/JLS-MIC_1_k6isv8.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3701,8 +3797,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-mic-6m',
     description: '',
     price: 220.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337578/JLS-MIC_1_k6isv8.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337578/JLS-MIC_1_k6isv8.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3713,8 +3812,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-mic-10m',
     description: '',
     price: 280.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337578/JLS-MIC_1_k6isv8.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337578/JLS-MIC_1_k6isv8.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3725,8 +3827,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-mic-15m',
     description: '',
     price: 360.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337578/JLS-MIC_1_k6isv8.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337578/JLS-MIC_1_k6isv8.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3737,8 +3842,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-mic-20m',
     description: '',
     price: 420.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337578/JLS-MIC_1_k6isv8.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751337578/JLS-MIC_1_k6isv8.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3749,8 +3857,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-high-imp-1-5m',
     description: '',
     price: 150.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339682/JLS-HIGH-IMP_1_wzic9x.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339682/JLS-HIGH-IMP_1_wzic9x.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3761,8 +3872,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-high-imp-3m',
     description: '',
     price: 170.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339682/JLS-HIGH-IMP_1_wzic9x.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339682/JLS-HIGH-IMP_1_wzic9x.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3773,8 +3887,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-high-imp-6m',
     description: '',
     price: 220.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339682/JLS-HIGH-IMP_1_wzic9x.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339682/JLS-HIGH-IMP_1_wzic9x.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3785,8 +3902,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-high-imp-10m',
     description: '',
     price: 280.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339682/JLS-HIGH-IMP_1_wzic9x.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339682/JLS-HIGH-IMP_1_wzic9x.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3797,8 +3917,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-patch-1-5m',
     description: '',
     price: 150.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339853/JLS-PATCH_fxn1l2.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339853/JLS-PATCH_fxn1l2.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3809,8 +3932,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-patch-3m',
     description: '',
     price: 170.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339853/JLS-PATCH_fxn1l2.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339853/JLS-PATCH_fxn1l2.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3821,8 +3947,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-patch-6m',
     description: '',
     price: 220.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339853/JLS-PATCH_fxn1l2.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339853/JLS-PATCH_fxn1l2.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3833,8 +3962,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-patch-10m',
     description: '',
     price: 280.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339853/JLS-PATCH_fxn1l2.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751339853/JLS-PATCH_fxn1l2.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3845,8 +3977,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-inst-1-5m',
     description: '',
     price: 150.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340022/JLS-INTS_yvfyrk.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340022/JLS-INTS_yvfyrk.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3857,8 +3992,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-inst-3m',
     description: '',
     price: 170.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340022/JLS-INTS_yvfyrk.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340022/JLS-INTS_yvfyrk.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3869,8 +4007,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-inst-6m',
     description: '',
     price: 220.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340022/JLS-INTS_yvfyrk.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340022/JLS-INTS_yvfyrk.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3881,8 +4022,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-inst-10m',
     description: '',
     price: 280.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340022/JLS-INTS_yvfyrk.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340022/JLS-INTS_yvfyrk.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3893,8 +4037,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-dj-1-1-5m',
     description: '',
     price: 125.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340342/JLS-DJX1_1_hf588b.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340342/JLS-DJX1_1_hf588b.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3905,8 +4052,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-dj-1-3m',
     description: '',
     price: 150.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340342/JLS-DJX1_1_hf588b.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340342/JLS-DJX1_1_hf588b.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3917,8 +4067,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-dj-2-1-5m',
     description: '',
     price: 125.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340336/JLS-DJX2_1_llxptz.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340336/JLS-DJX2_1_llxptz.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3929,8 +4082,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-dj-2-3m',
     description: '',
     price: 150.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340336/JLS-DJX2_1_llxptz.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340336/JLS-DJX2_1_llxptz.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3941,8 +4097,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-dj-3-1-5m',
     description: '',
     price: 125.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340339/JLS-DJX3_1_xysjlp.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340339/JLS-DJX3_1_xysjlp.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3953,8 +4112,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-dj-3-3m',
     description: '',
     price: 150.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340339/JLS-DJX3_1_xysjlp.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340339/JLS-DJX3_1_xysjlp.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3965,8 +4127,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-dj-4-1-5m',
     description: '',
     price: 170.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340333/JLS-DJX4_1_zsmq1c.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340333/JLS-DJX4_1_zsmq1c.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3977,8 +4142,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jls-dj-4-3m',
     description: '',
     price: 230.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340333/JLS-DJX4_1_zsmq1c.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340333/JLS-DJX4_1_zsmq1c.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -3989,8 +4157,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jzg-2x12-100m',
     description: '',
     price: 1200.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340844/JZG-2X12-100M_1_mcnmcc.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340844/JZG-2X12-100M_1_mcnmcc.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -4001,8 +4172,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jzg-2x14-100m',
     description: '',
     price: 800.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340850/JZG-2X14-100M_s3xqfc.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340850/JZG-2X14-100M_s3xqfc.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
@@ -4013,8 +4187,11 @@ export const PRODUCTS: Product[] = [
     slug: 'jzg-2x16-100m',
     description: '',
     price: 670.0,
-    coverImage: '/images/no-image.webp',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340854/JZG_2X16-100M_cx0zrn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340854/JZG_2X16-100M_cx0zrn.webp',
+    ],
     categoryId: 'cables-category',
     features: [],
     videoUrl: '',
