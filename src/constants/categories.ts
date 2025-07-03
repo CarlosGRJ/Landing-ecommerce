@@ -171,7 +171,7 @@ export const CATEGORIES: Category[] = [
     description:
       'En esta categoría encontrarás equipos ideales para ambientar conciertos, escenarios, fiestas, clubes o presentaciones. Las máquinas de humo realzan la iluminación y los efectos visuales, generando un entorno envolvente y dinámico que cautiva al público. Disponibles en distintos tamaños y potencias, nuestras opciones se adaptan tanto a instalaciones móviles como a montajes fijos. Compatibles con control DMX y diseñadas para un rendimiento confiable y continuo.',
     shortDesc: 'Efectos visuales para ambientar.',
-    color: 'text-indigo-600',
+    color: 'text-gray-700',
     image: '/images/humo.webp',
     alt: 'Máquina de humo en acción',
   },
@@ -229,5 +229,16 @@ export const CATEGORIES: Category[] = [
     color: 'text-amber-600',
     image: '/images/diafragmas-category.webp',
     alt: 'Diafragmas para drivers de audio',
+  },
+  {
+    id: 'lasers-category',
+    name: 'Lásers',
+    slug: 'lasers',
+    description:
+      'Crea espectáculos visuales impresionantes con nuestra gama de lásers profesionales. Desde multipuntos y efectos moon hasta modelos RGB de alta potencia compatibles con DMX e ILDA, encuentra la solución ideal para iluminar tus eventos con precisión y color vibrante.',
+    shortDesc: 'Efectos visuales y shows láser.',
+    color: 'text-rose-600',
+    image: '/images/lasers-category.webp',
+    alt: 'Lásers para espectáculos de luces',
   },
 ];
