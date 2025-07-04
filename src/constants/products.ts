@@ -6019,7 +6019,7 @@ export const PRODUCTS: Product[] = [
     name: 'ESTROBO 294W',
     description: 'ESTROBO 294W',
     slug: 'estrobo-294w',
-    price: 747.21,
+    price: 2830.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750953294/ESTROBO-294W_mcietd.webp',
     images: [
