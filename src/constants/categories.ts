@@ -241,4 +241,26 @@ export const CATEGORIES: Category[] = [
     image: '/images/lasers-category.webp',
     alt: 'Lásers para espectáculos de luces',
   },
+  {
+    id: 'esferas-category',
+    name: 'Esferas de Fiesta',
+    slug: 'esferas-de-fiesta',
+    description:
+      'Añade un toque clásico y espectacular a tus eventos con nuestras esferas de fiesta. Disponibles en tamaños jumbo, XL, grandes, medianas y pequeñas, estas esferas reflejan luces creando efectos brillantes y dinámicos. Perfectas para salones de fiestas, clubes nocturnos, escenarios y cualquier ambiente que busque un toque de elegancia y diversión. Todas nuestras esferas pueden incluir motor para giro constante y seguro.',
+    shortDesc: 'Esferas reflectoras en varios tamaños con motor.',
+    color: 'text-pink-600',
+    image: '/images/esferas-category.webp',
+    alt: 'Esferas de fiesta para eventos y espectáculos',
+  },
+  {
+    id: 'cabinas-category',
+    name: 'Cabinas',
+    slug: 'cabinas',
+    description:
+      'Convierte cada evento en una experiencia inolvidable con nuestras cabinas. Diseñadas para bodas, fiestas, eventos corporativos y sociales, estas cabinas permiten a tus invitados capturar recuerdos únicos. Disponibles en versiones estáticas o giratorias, ofrecen iluminación profesional, fondos personalizables y accesorios divertidos para lograr las mejores fotografías y videos.',
+    shortDesc: 'Cabinas de fotos y video para eventos.',
+    color: 'text-violet-600',
+    image: '/images/cabinas-category.webp',
+    alt: 'Cabinas para selfies y fotos en eventos',
+  },
 ];

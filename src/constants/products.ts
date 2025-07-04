@@ -6045,7 +6045,7 @@ export const PRODUCTS: Product[] = [
     name: 'Vamav TERRA-218',
     description: '',
     slug: 'vamav-terra-218',
-    price: 17352.0,
+    price: 14500.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751598434/TERRA-218_1_jysxol.webp',
     images: [
@@ -6056,5 +6056,182 @@ export const PRODUCTS: Product[] = [
     categoryId: 'bafles-category',
     features: [],
     videoUrl: '',
+  },
+
+  // Esferas
+  {
+    id: '00-esfera-x',
+    name: 'Esfera X',
+    description: '',
+    slug: 'esfera-x',
+    price: 1100.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657603/Esfera-X_1_uzqjec.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657603/Esfera-X_1_uzqjec.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657605/Esfera-X_2_aybf02.webp',
+    ],
+    categoryId: 'esferas-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '01-esfera-x-dorada',
+    name: 'Esfera X Dorada',
+    description: '',
+    slug: 'esfera-x-dorada',
+    price: 1350.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657759/Esfera-X-Dorada_yxtvr2.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657759/Esfera-X-Dorada_yxtvr2.webp',
+    ],
+    categoryId: 'esferas-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '02-esfera-x-rosa',
+    name: 'Esfera X Rosa',
+    description: '',
+    slug: 'esfera-x-rosa',
+    price: 1350.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657850/Esfera-X-Rosa_xjcjao.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657850/Esfera-X-Rosa_xjcjao.webp',
+    ],
+    categoryId: 'esferas-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '03-esfera-colores',
+    name: 'Esfera X de colores',
+    description: '',
+    slug: 'esfera-colores',
+    price: 1350.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751667546/Esfera-X-colores_p9fouc.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751667546/Esfera-X-colores_p9fouc.webp',
+    ],
+    categoryId: 'esferas-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '04-esfera-xl',
+    name: 'Esfera XL',
+    description: '',
+    slug: 'esfera-xl',
+    price: 1450.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657942/Esfera-XL_1_swvlye.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657942/Esfera-XL_1_swvlye.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657944/Esfera-XL_2_trfpw4.webp',
+    ],
+    categoryId: 'esferas-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '05-esfera-jumbo',
+    name: 'Esfera jumbo',
+    description: '',
+    slug: 'esfera-jumbo',
+    price: 1900.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657144/Esfera-jumbo_1_ourvd1.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657144/Esfera-jumbo_1_ourvd1.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657144/Esfera-jumbo_2_t41rs1.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751657449/Esfera-jumbo_3_geiphm.webp',
+    ],
+    categoryId: 'esferas-category',
+    features: [],
+    videoUrl: '',
+  },
+
+  // Cabinas
+  {
+    id: '00-cabina-360',
+    name: 'Cabina 360',
+    description: '',
+    slug: 'cabina-360',
+    price: 41000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751668276/Cabina-360_1_dclg8b.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751668276/Cabina-360_1_dclg8b.webp',
+    ],
+    categoryId: 'cabinas-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751667919/Cabina-360_mp25p4.mp4',
+  },
+  {
+    id: '01-cabina-curva',
+    name: 'Cabina curva',
+    description: 'Cabina curva 800 leds',
+    slug: 'cabina-curva-800-leds',
+    price: 15000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751669199/Cabina-curva-800-leds_bhseoc.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751669199/Cabina-curva-800-leds_bhseoc.webp',
+    ],
+    categoryId: 'cabinas-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751668663/Cabina-curva-800-leds_vx4fhi.mp4',
+  },
+  {
+    id: '02-cabina-burbujas',
+    name: 'Cabina de burbujas',
+    description: 'Cabina de burbujas de 800 leds',
+    slug: 'cabina-burbujas-800-leds',
+    price: 10200.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751669479/Cabina-burbujas-800-leds_zzgxib.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751669479/Cabina-burbujas-800-leds_zzgxib.webp',
+    ],
+    categoryId: 'cabinas-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '03-cabina-600-leds-perimetrales',
+    name: 'Cabina 600 leds con perimetrales',
+    description: 'Cabina 600 leds con perimetrales',
+    slug: 'cabina-600-leds',
+    price: 12500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751670952/Cabina-600-leds-perimetrales_abd6xr.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751670952/Cabina-600-leds-perimetrales_abd6xr.webp',
+    ],
+    categoryId: 'cabinas-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751670956/Cabina-600-leds-perimetrales_kd6ljk.mp4',
+  },
+  {
+    id: '04-cabina-600-leds-app',
+    name: 'Cabina con app',
+    description: 'Cabina 600 leds con app',
+    slug: 'cabina-600-leds-app',
+    price: 6900.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751671528/Cabina-600-leds-app_anucpz.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751671528/Cabina-600-leds-app_anucpz.webp',
+    ],
+    categoryId: 'cabinas-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751671532/Cabina-600-leds-app_ksldii.mp4',
   },
 ];
