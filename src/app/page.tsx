@@ -35,6 +35,9 @@ export default function Home() {
       'query-input': 'required name=search_term_string',
     },
   };
+
+  const categoriesToShow = CATEGORIES.slice(0, 4);
+
   return (
     <>
       <Head>
@@ -52,10 +55,10 @@ export default function Home() {
 
       <HeroSection />
 
-      {CATEGORIES.map((category) => {
+      {categoriesToShow.map((category) => {
         const productsForCategory = PRODUCTS.filter(
           (product) => product.categoryId === category.id,
-        );
+        ).slice(0, 6);
 
         return (
           <ProductCategorySection

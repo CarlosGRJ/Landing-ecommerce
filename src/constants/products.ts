@@ -1640,8 +1640,11 @@ export const PRODUCTS: Product[] = [
     slug: 'dsc-24x-dsp',
     description: 'DSC 24X DSP',
     price: 7300.0,
-    coverImage: '',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751591932/DSC-24X-DSP_vhgl1w.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751591932/DSC-24X-DSP_vhgl1w.webp',
+    ],
     categoryId: '',
     features: [],
     videoUrl: '',
@@ -1652,9 +1655,12 @@ export const PRODUCTS: Product[] = [
     slug: 'dsc-4800-dsp',
     description: 'PROCESADOR 4in8out 96k24bit',
     price: 14514.0,
-    coverImage: '',
-    images: [],
-    categoryId: '',
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751592119/DSC4800_xvhlw8.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751592119/DSC4800_xvhlw8.webp',
+    ],
+    categoryId: 'procesadores-audio-category',
     features: [],
     videoUrl: '',
   },
@@ -5033,6 +5039,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751410026/INFINITY-150_1_o30rjv.webp',
     images: [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751410026/INFINITY-150_1_o30rjv.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751592411/INFINITY-150_2_they5s.webp',
     ],
     categoryId: 'luces-category',
     features: [],
@@ -5769,7 +5776,8 @@ export const PRODUCTS: Product[] = [
     ],
     categoryId: 'iluminacion-category',
     features: [],
-    videoUrl: '',
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751592563/barra_borealis_dj3dik.mp4',
   },
   {
     id: '72-aztek-50',

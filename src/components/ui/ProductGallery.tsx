@@ -55,7 +55,7 @@ export const ProductGallery = ({
       <div className='mt-4'>
         <Carousel
           opts={{ align: 'start' }}
-          className='w-full max-w-5xl mx-auto'>
+          className='w-full max-w-xs md:max-w-5xl mx-auto'>
           <CarouselContent>
             {videoUrl && (
               <CarouselItem className='basis-1/4 lg:basis-1/6'>

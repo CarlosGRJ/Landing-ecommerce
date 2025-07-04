@@ -21,7 +21,9 @@ export const ProductCard = ({ product }: { product: Product }) => {
           <Skeleton className='absolute top-0 left-0 w-full h-full rounded-none' />
         )}
         <Image
-          src={product.coverImage || product.images[0] || '/images/no-image.webp'}
+          src={
+            product.coverImage || product.images[0] || '/images/no-image.webp'
+          }
           alt={product.name}
           width={400}
           height={300}
@@ -30,6 +32,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
           }`}
           onLoad={() => setImageLoaded(true)}
           itemProp='image'
+          loading='lazy'
         />
       </div>
 

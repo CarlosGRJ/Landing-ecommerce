@@ -12,7 +12,7 @@ import { ProductCard, ProductSkeleton } from '../ui/ProductCard';
 
 interface Props {
   title: string;
-  products: Product[];
+  products?: Product[];
   categorySlug?: string;
   loading?: boolean;
 }
@@ -40,17 +40,19 @@ export const ProductCategorySection = ({
 
         <Carousel className='w-full'>
           <CarouselContent>
-            {(loading ? skeletonArray : products).map((product, index) => (
-              <CarouselItem
-                key={index}
-                className='pl-4 basis-[80%] sm:basis-1/2 md:basis-1/3 lg:basis-1/4'>
-                {loading || !product ? (
-                  <ProductSkeleton />
-                ) : (
-                  <ProductCard product={product} />
-                )}
-              </CarouselItem>
-            ))}
+            {products &&
+              products.length > 0 &&
+              (loading ? skeletonArray : products).map((product) => (
+                <CarouselItem
+                  key={product.id}
+                  className='pl-4 basis-[80%] sm:basis-1/2 md:basis-1/3 lg:basis-1/4'>
+                  {loading || !product ? (
+                    <ProductSkeleton />
+                  ) : (
+                    <ProductCard product={product} />
+                  )}
+                </CarouselItem>
+              ))}
           </CarouselContent>
           <CarouselPrevious />
           <CarouselNext />
