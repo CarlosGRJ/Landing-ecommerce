@@ -34,6 +34,7 @@ export const ProductGallery = ({
         {selected === -1 && videoUrl ? (
           <video
             controls
+            controlsList='nodownload'
             className='w-full h-full object-cover'
             aria-label={`Video del producto ${productName}`}>
             <source src={videoUrl} type='video/mp4' />
