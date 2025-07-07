@@ -5577,7 +5577,7 @@ export const PRODUCTS: Product[] = [
     id: '59-smoke 3000',
     name: 'SMOKE 3000',
     description: 'PANEL LED MATRIX 5*5 25 LEDS 10W RGBW',
-    slug: 'smoke 3000',
+    slug: 'smoke-3000',
     price: 3756.49,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751574493/SMOKE-3000_1_rucqne.webp',
@@ -6153,6 +6153,38 @@ export const PRODUCTS: Product[] = [
     features: [],
     videoUrl: '',
   },
+  {
+    id: '06-motor-esfera-chica',
+    name: 'Motor para esfera chica',
+    description: '',
+    slug: 'motor-esfera-chica',
+    price: 195.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751754595/motor-esfera-chica_py9efn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751754595/motor-esfera-chica_py9efn.webp',
+    ],
+    categoryId: 'esferas-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751754601/motor-esfera-chica_bloxcn.mp4',
+  },
+  {
+    id: '07-motor-esfera-grande',
+    name: 'Motor para esfera grande',
+    description: '',
+    slug: 'motor-esfera-grande',
+    price: 260.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751754597/motor-esfera-grande_x6hvz5.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751754597/motor-esfera-grande_x6hvz5.webp',
+    ],
+    categoryId: 'esferas-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751754603/motor-esfera-grande_w18aex.mp4',
+  },
 
   // Cabinas
   {
@@ -6233,5 +6265,594 @@ export const PRODUCTS: Product[] = [
     features: [],
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751671532/Cabina-600-leds-app_ksldii.mp4',
+  },
+
+  // Maquinas de humo
+  {
+    id: '00-steelpro-shot-1000-1000w',
+    name: 'Steelpro SHOT-1000 1000w',
+    description:
+      'Maquina De Humo Steelpro SHOT-1000 1000w 9 Led Rgb Automática Negro',
+    slug: 'steelpro-shot-1000-1000w',
+    price: 1500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751672895/Steel-pro-shot-1000_1_rqqags.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751672895/Steel-pro-shot-1000_1_rqqags.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751672895/Steel-pro-shot-1000_2_xmmgqv.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751672894/Steel-pro-shot-1000_3_a2kdyb.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [
+      'Una pieza fundamental para ambientar tus eventos y generar un efecto visual único.',
+    ],
+    videoUrl: '',
+  },
+  {
+    id: '01-steelpro-shot-1600-1000w',
+    name: 'Steelpro Shot 1600 1600w',
+    description:
+      'Maquina Cámara De Humo Shot 1600dmx Steelpro - 1600watts Color Negro',
+    slug: 'steelpro-shot-1600-2500mxn',
+    price: 2500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751672895/Steel-pro-shot-1600_1_fox7zv.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751672895/Steel-pro-shot-1600_1_fox7zv.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751672895/Steel-pro-shot-1600_2_roughp.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751672894/Steel-pro-shot-1600_3_ft5j85.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [
+      'Una pieza fundamental para ambientar tus eventos y generar un efecto visual único.',
+    ],
+    videoUrl: '',
+  },
+  {
+    id: '02-maquina-humo-500w',
+    name: 'Máquina humo 500W',
+    description: 'Máquina de humo Con 3 luz led máquinas de niebla de 500w',
+    slug: 'maquina-humo-500w',
+    price: 700.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751681351/Maquina-humo-500w_1_oikdae.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751681351/Maquina-humo-500w_1_oikdae.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751681351/Maquina-humo-500w_2_c5mrth.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751681351/Maquina-humo-500w_3_sth4ei.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751681351/Maquina-humo-500w_4_pbgwg4.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [''],
+    videoUrl: '',
+  },
+  {
+    id: '03-Ghost-900w-Steelpro',
+    name: 'Ghost 900w Steelpro',
+    description: 'Camara De Humo Ghost 900w Steelpro Con Control Inalámbrico',
+    slug: 'ghost-900w-steelpro`',
+    price: 780.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751735282/ghost-900_1_k2clxn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751735282/ghost-900_1_k2clxn.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751735282/ghost-900_2_yyim86.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751735283/ghost-900_3_n1gqio.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751735282/ghost-900_4_nxmx3p.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [''],
+    videoUrl: '',
+  },
+  {
+    id: '04-maquina-humo-bajo',
+    name: 'Máquina de Humo Bajo',
+    description: '',
+    slug: 'maquina-humo-bajo',
+    price: 12000.0, // PENDIENTE
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751761367/Maquina-humo-bajo_frtjvt.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751761367/Maquina-humo-bajo_frtjvt.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [''],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751761369/Maquina-humo-bajo_uhqbju.mp4',
+  },
+  {
+    id: '05-maquina-humo-undertaker',
+    name: 'Máquina De Humo Niebla Baja',
+    description: 'Máquina De Humo Niebla Baja Densidad Hielo 900w By Steelpro',
+    slug: 'maquina-humo-undertaker',
+    price: 3179.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751761807/Maquina-humo-undertaker_1_tewi9f.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751761807/Maquina-humo-undertaker_1_tewi9f.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751761807/Maquina-humo-undertaker_2_fitoux.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [''],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751761808/maquina-humo-undertaker_xuchiz.mp4',
+  },
+
+  // iluminacion
+  {
+    id: '00-par-led-18x10-rgbw-con-aro-rgb',
+    name: 'Par Led 18x10 Rgbw Con Aro Rgb',
+    description: '',
+    slug: 'par-led-18x10-rgbw-con-aro-rgb',
+    price: 750.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751735748/Canon-18x10w-aro_1_yqmbrl.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751735748/Canon-18x10w-aro_1_yqmbrl.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751735749/Canon-18x10w-aro_2_qtfuvw.webp',
+    ],
+    categoryId: 'iluminacion-category',
+    features: [''],
+    videoUrl: '',
+  },
+  {
+    id: '01-balon-retro',
+    name: 'Cabeza Robotica Móvil',
+    description: '',
+    slug: 'cabeza-robotica-movil',
+    price: 2500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751744908/Balon-retro-cabeza-movil_1_sifmio.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751744908/Balon-retro-cabeza-movil_1_sifmio.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751744909/Balon-retro-cabeza-movil_2_fjw4gw.webp',
+    ],
+    categoryId: 'iluminacion-category',
+    features: [''],
+    videoUrl: '',
+  },
+  {
+    id: '02-ovni-multiefecto',
+    name: 'Ovni multiefecto',
+    description: '',
+    slug: 'ovni-multiefecto',
+    price: 3300.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751745438/Ovni-multiefecto_1_l4xg4o.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751745438/Ovni-multiefecto_1_l4xg4o.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751745438/Ovni-multiefecto_2_wfzlh6.webp',
+    ],
+    categoryId: 'iluminacion-category',
+    features: [''],
+    videoUrl: '',
+  },
+
+  // LUCES
+  {
+    id: '00-hubble',
+    name: 'Megaluz HUBBLE',
+    description: '',
+    slug: 'megaluz-hubble',
+    price: 1700.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751746225/Hubble_1_cvus6c.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751746225/Hubble_1_cvus6c.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751746223/Hubble_2_w1ywbo.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751746223/Hubble_3_wdjwqg.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [''],
+    videoUrl: '',
+  },
+  {
+    id: '01-case-fade-285',
+    name: 'CASE FADE 285',
+    description: '',
+    slug: 'case-fade-285',
+    price: 8600.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751747410/FADE-285_1_grugxs.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751747410/FADE-285_1_grugxs.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751747409/FADE-285_2_fsnhbo.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [''],
+    videoUrl: '',
+  },
+  {
+    id: '02-fractal',
+    name: 'Megaluz Fractal',
+    description: 'MEGALUZ LUZ DISCO CABEZA MOVIL FRACTAL',
+    slug: 'megaluz-fractal',
+    price: 2000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751748082/FRACTAL_1_nm327l.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751748082/FRACTAL_1_nm327l.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751748084/FRACTAL_2_xrg275.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [''],
+    videoUrl: '',
+  },
+  {
+    id: '03-mini-spider',
+    name: 'MINI SPIDER',
+    description: 'Mini Spider Rgbw Efectos 4 En 1 Luz 8x3w',
+    slug: 'mini-spider',
+    price: 1700.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751748767/Mini-spider_1_g2ftts.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751748767/Mini-spider_1_g2ftts.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751748765/Mini-spider_2_u6vjlx.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [''],
+    videoUrl: '',
+  },
+  {
+    id: '03-megaluz-cm014',
+    name: 'Megaluz CM014',
+    description: '2 Cabezas Móviles Spot 60 Contour Megaluz',
+    slug: 'megaluz-cm014',
+    price: 2000.0, // PENDIENTE
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751749589/CM014_1_jhowpy.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751749589/CM014_1_jhowpy.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751749586/CM014_2_zxbbvy.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [''],
+    videoUrl: '',
+  },
+  {
+    id: '04-joyfirst-14r-300w',
+    name: 'Joyfirst 14R 300W',
+    description: 'Cabeza Móvil Joyfirst 14R 300W',
+    slug: 'joyfirst-14r-300w',
+    price: 26500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751763108/JOYFIRST-14R-300W_1_cpedy2.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751763108/JOYFIRST-14R-300W_1_cpedy2.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751763108/JOYFIRST-14R-300W_2_asgq9z.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [''],
+    videoUrl: '',
+  },
+  {
+    id: '05-ruby-4x4',
+    name: 'Ruby 4x4',
+    description: '',
+    slug: 'ruby-4x4',
+    price: 5000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751765183/ruby-4x4_1_fs9mqx.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751765183/ruby-4x4_1_fs9mqx.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [''],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751765184/ruby-4x4_lyl6js.mp4',
+  },
+  {
+    id: '10-cabezas-9r-aro',
+    name: 'Cabezas 9R con aro led',
+    description: '',
+    slug: 'cabezas-9r-aro',
+    price: 26500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751766359/cabezas-9r-aro_zlyh64.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751766359/cabezas-9r-aro_zlyh64.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [''],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751766361/cabezas_myej7y.mp4',
+  },
+
+  //Estructuras
+  {
+    id: '00-estructura-minisoporte',
+    name: 'Estructura Minisoporte',
+    description: '',
+    slug: 'estructura-minisoporte',
+    price: 9900.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751753810/estructura-mini_1_qa3cuw.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751753810/estructura-mini_1_qa3cuw.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751753805/estructura-mini_2_p0ybxn.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751753808/estructura-mini_3_ky3ebx.webp',
+    ],
+    categoryId: 'estructuras-category',
+    features: [''],
+    videoUrl: '',
+  },
+  {
+    id: '01-estructura-3-galvanizado',
+    name: 'Estructura 3 metros Galvanizado',
+    description: '',
+    slug: 'estructura-3-galvanizado',
+    price: 1300.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751753803/estructura-3-galvanizado_1_xlptgr.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751753803/estructura-3-galvanizado_1_xlptgr.webp',
+    ],
+    categoryId: 'estructuras-category',
+    features: [''],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751753813/estructura-3-galvanizado_yzlubi.mp4',
+  },
+
+  // Accesorios
+  {
+    id: '00-controlador-DMX-512',
+    name: 'Megaluz Controlador De Iluminación DMX 512',
+    description: '',
+    slug: 'controlador-dmx-512',
+    price: 566.0, // PENDIENTE
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751772259/Controller-DMX-512_1_jqewsp.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751772259/Controller-DMX-512_1_jqewsp.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751772259/Controller-DMX-512_2_tx6l14.webp',
+    ],
+    categoryId: 'accesorios-category',
+    features: [''],
+    videoUrl: '',
+  },
+
+  // Efectos Especiales
+  {
+    id: '00-vortex-1000',
+    name: 'Steelpro VORTEX 1000',
+    description: 'Máquina de humo Steelpro VORTEX 1000',
+    slug: 'vortex-1000',
+    price: 4130.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751772740/VORTEX-1000_1_d9gaac.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751772740/VORTEX-1000_1_d9gaac.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751772740/VORTEX-1000_2_k5f22f.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [''],
+    videoUrl: '',
+  },
+  {
+    id: '01-jet-co2-rgb',
+    name: 'Máquina Jet CO2 RGB',
+    description: 'Máquina De Efectos Co2 Rgb Escenarios Dj By Steelpro',
+    slug: 'jet-co2-rgb',
+    price: 4800.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751773090/Jet-CO2-RGB_1_ngikrc.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751773090/Jet-CO2-RGB_1_ngikrc.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751773092/Jet-CO2-RGB_2_nl80ye.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [''],
+    videoUrl: '',
+  },
+  {
+    id: '02-FIAMMAX2',
+    name: 'Máquina de fuego FIAMMAX2',
+    description:
+      'Maquina De Fuego Fiamma Dmx 200w Lanza Llamas Premiata FIAMMAX2',
+    slug: 'fiammmax2',
+    price: 1950.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751774109/FIAMMAX2_1_ahrtbu.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751774109/FIAMMAX2_1_ahrtbu.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751774108/FIAMMAX2_2_yeb8xu.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [''],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751774111/FIAMMAX2_gmug6d.mp4',
+  },
+  {
+    id: '03-pista-baile',
+    name: 'Pista de Baile LED',
+    description: 'Pista de Baile LED RGB para Eventos y Fiestas',
+    slug: 'pista-baile',
+    price: 7900.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751850736/pista-baile_klwvqa.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751850736/pista-baile_klwvqa.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: ['$7900 por metro'],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751850737/pista-baile_gdk3qp.mp4',
+  },
+  {
+    id: '04-co2-chica',
+    name: 'CO2 Chica',
+    description: 'Máquina de Efectos CO2 Chica',
+    slug: 'co2-chica',
+    price: 9000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751851184/co2-chica_1_ngbo3r.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751851184/co2-chica_1_ngbo3r.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751851184/co2-chica_2_aqgw9p.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '05-co2-grande',
+    name: 'CO2 Grande',
+    description: 'Máquina de Efectos CO2 Grande',
+    slug: 'co2-grande',
+    price: 10500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751852272/co2-grande_1_xhbohe.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751852272/co2-grande_1_xhbohe.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '06-bazooka-chica',
+    name: 'Bazooka Manual Chica',
+    description: 'Máquina de Efectos Bazooka Chica',
+    slug: 'bazooka-chica',
+    price: 1350.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751852828/bazooka_uxs7ls.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751852828/bazooka_uxs7ls.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '07-bazooka-mediana',
+    name: 'Bazooka Manual Mediana',
+    description: 'Máquina de Efectos Bazooka Mediana',
+    slug: 'bazooka-mediana',
+    price: 1450.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751852828/bazooka_uxs7ls.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751852828/bazooka_uxs7ls.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '08-bazooka-grande',
+    name: 'Bazooka Manual Grande',
+    description: 'Máquina de Efectos Bazooka Grande',
+    slug: 'bazooka-grande',
+    price: 1550.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751852828/bazooka_uxs7ls.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751852828/bazooka_uxs7ls.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '09-OM-BM10_1',
+    name: 'Maquina De Burbujas Steelpro',
+    description: 'Maquina De Burbuja Eventos Dj Bubble Machine - Steelpro',
+    slug: 'OM-BM10_1',
+    price: 800.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751853192/OM-BM10_1_imiwdl.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751853192/OM-BM10_1_imiwdl.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751853194/OM-BM10_2_qcytjf.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751853193/OM-BM10_3_z5mdc2.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '10-PYRO-4-detonadores',
+    name: 'Set De 4 Detonadores Omega Steelpro - Pyro-4',
+    description: 'Set De 4 Detonadores Inalambricos Omega Steelpro - Pyro-4',
+    slug: 'PYRO-4-detonadores',
+    price: 1100.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751853673/PYRO-4_1_c08zja.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751853673/PYRO-4_1_c08zja.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751853671/PYRO-4_2_xhbwh4.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751853672/PYRO-4_3_oihxja.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '11-maquina-chispas-600w',
+    name: 'Máquina de Chispas 600W',
+    description: 'Máquina de Chispas 600W - Efectos Especiales',
+    slug: 'maquina-chispas-600w',
+    price: 9500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751854936/maquina-chispas-600w_innhfe.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751854936/maquina-chispas-600w_innhfe.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751854937/maquina-chispas-600w_pypt2h.mp4',
+  },
+  {
+    id: '12-reguilete-chispero',
+    name: 'Máquina de Chispas Reguilete',
+    description: 'Máquina de Chispas Reguilete - Efectos Especiales',
+    slug: 'maquina-chispas-reguilete',
+    price: 2600.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751855397/reguilete-chispero_sci0f6.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751855397/reguilete-chispero_sci0f6.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751855399/requilete-chispero_tmpzmd.mp4',
+  },
+  {
+    id: '13-maquina-nieve-1',
+    name: 'Máquina de Nieve',
+    description: 'Maquina de nieve - Efectos Especiales',
+    slug: 'maquina-nieve-1',
+    price: 2500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751855662/maquina-nieve-1_khdjqw.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751855662/maquina-nieve-1_khdjqw.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751855663/maquina-nieve-1_eyajfm.mp4',
+  },
+
+  // Lasers
+  {
+    id: '00-barra-laser-1-color',
+    name: 'Barra laser 1 color',
+    description: 'Barra laser de 1 color',
+    slug: 'barra-laser-1-color',
+    price: 5000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751856840/barra-laser-1-color_djf2xi.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751856840/barra-laser-1-color_djf2xi.webp',
+    ],
+    categoryId: 'lasers-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751856841/barra-laser-1-color_offbdu.mp4',
   },
 ];

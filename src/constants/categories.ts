@@ -263,4 +263,26 @@ export const CATEGORIES: Category[] = [
     image: '/images/cabinas-category.webp',
     alt: 'Cabinas para selfies y fotos en eventos',
   },
+  {
+    id: 'efectos-category',
+    name: 'Efectos Especiales',
+    slug: 'efectos-especiales',
+    description:
+      'Descubre máquinas de fuego, niebla, CO₂, chispas y más para crear shows impactantes en tus eventos. Perfectas para escenarios, fiestas, bodas y producciones audiovisuales.',
+    shortDesc: 'Efectos visuales para shows y eventos.',
+    color: 'text-red-600',
+    image: '/images/efectos-especiales.webp',
+    alt: 'Máquinas de fuego, humo y efectos especiales para eventos',
+  },
+  {
+    id: 'estructuras-category',
+    name: 'Estructuras',
+    slug: 'estructuras',
+    description:
+      'Soluciones robustas y versátiles para montar escenarios, soportar iluminación, sonido, pantallas y crear espacios seguros y funcionales en cualquier evento. Incluye trusses, escenarios, torres y estructuras especiales adaptadas a tus necesidades.',
+    shortDesc: 'Trusses, escenarios y estructuras para eventos.',
+    color: 'text-gray-700',
+    image: '/images/estructuras.webp',
+    alt: 'Trusses y estructuras para escenarios y eventos',
+  },
 ];
