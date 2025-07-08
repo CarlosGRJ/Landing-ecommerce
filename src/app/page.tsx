@@ -14,7 +14,7 @@ export default function Home() {
     contactPoint: [
       {
         '@type': 'ContactPoint',
-        telephone: '+52-55-XXXX-XXXX', // TODO: put real phone
+        telephone: '+52-282-123-2252',
         contactType: 'customer service',
         areaServed: 'MX',
         availableLanguage: ['Spanish'],

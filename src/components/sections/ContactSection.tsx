@@ -105,10 +105,10 @@ export const ContactSection = () => {
             <div>
               <strong>Teléfono / WhatsApp:</strong>{' '}
               <a
-                href='https://wa.me/52155XXXXXXXX'
+                href='https://wa.me/522821232252'
                 className='text-green-600 hover:underline'
                 target='_blank'>
-                +52 55 XXXX XXXX
+                +52 282 123 2252
               </a>
             </div>
             <div>

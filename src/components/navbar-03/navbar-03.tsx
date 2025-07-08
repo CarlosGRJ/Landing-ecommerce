@@ -45,9 +45,8 @@ const Navbar03Page = () => {
             <Button
               className='bg-green-500 hover:bg-green-600 text-white flex items-center gap-2'
               asChild>
-              {/* TODO: ADD real number */}
               <a
-                href='https://wa.me/521XXXXXXXXXX'
+                href='https://wa.me/522821232252'
                 target='_blank'
                 rel='noopener noreferrer'
                 aria-label='Contáctanos por WhatsApp'>

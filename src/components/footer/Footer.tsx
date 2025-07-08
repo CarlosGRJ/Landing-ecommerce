@@ -48,15 +48,14 @@ export const Footer = () => {
             </li>
             <li className='flex items-center gap-2'>
               <FaPhone className='text-indigo-600' />
-              {/* TODO: ADD REAL NUMBER  */}
-              <a href='tel:+5255XXXXXXXX' className='hover:underline'>
-                +52 55 XXXX XXXX
+              <a href='tel:+522821232252' className='hover:underline'>
+                +52 282 123 2252
               </a>
             </li>
             <li className='flex items-center gap-2'>
               <FaWhatsapp className='text-green-600' />
               <a
-                href='https://wa.me/52155xxxxxxxx'
+                href='https://wa.me/522821232252'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:underline'>

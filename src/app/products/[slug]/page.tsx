@@ -147,7 +147,7 @@ export default async function ProductPage({ params }: Props) {
             {/* Contact Button */}
             <div className='mt-8'>
               <Link
-                href={`https://wa.me/52155XXXXXXXX?text=Hola, quiero más información sobre ${product.name}`}
+                href={`https://wa.me/522821232252?text=Hola, quiero más información sobre ${product.name}`}
                 target='_blank'
                 rel='noopener noreferrer'
                 className='inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-medium px-6 py-3 rounded-lg transition'>
