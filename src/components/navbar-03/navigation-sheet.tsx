@@ -54,6 +54,13 @@ export const NavigationSheet = () => {
           </Link>
 
           <Link
+            href='/all-products'
+            onClick={handleClose}
+            className='flex items-center gap-3 text-lg text-gray-900 hover:text-indigo-600 transition'>
+            <Grid className='w-5 h-5' /> Todos los Productos
+          </Link>
+
+          <Link
             href='#contacto'
             onClick={handleClose}
             className='flex items-center gap-3 text-lg text-gray-900 hover:text-indigo-600 transition'>

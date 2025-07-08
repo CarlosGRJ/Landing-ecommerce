@@ -7044,4 +7044,39 @@ export const PRODUCTS: Product[] = [
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751856841/barra-laser-1-color_offbdu.mp4',
   },
+
+  // Sistemas de audio
+  {
+    id: '00-sistema-caruso-amplificado-400rms-bluetooth-usb',
+    name: 'Sistema caruso Amplificado 400rms, Bluetooth, usb',
+    description: 'Sistema de audio caruso Amplificado 400rms, Bluetooth, usb',
+    slug: 'sistema-caruso-amplificado-400rms-bluetooth-usb',
+    price: 7100.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752010778/caruso-121_1_mlsmt9.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752010778/caruso-121_1_mlsmt9.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752010780/caruso-121_2_pgipl6.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752010782/caruso-121_3_u2gouk.webp',
+    ],
+    categoryId: 'sistemas-de-audio-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '01-sistema-amplificado-18-pulgadas-tripiés-4-bocinas-8-pulgadas-bluetooth-usb',
+    name: 'Sistema amplificado de 18 pulgadas tripiés , 4 bocinas de 8 pulgadas , Bluetooth,  usb',
+    description:
+      'Sistema de audio amplificado de 18 pulgadas tripiés , 4 bocinas de 8 pulgadas , Bluetooth,  usb',
+    slug: 'sistema-amplificado-18-pulgadas-tripies',
+    price: 11800.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752011331/sistema-amplificado-18-pulgadas-tripies_1_muvjcy.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752011331/sistema-amplificado-18-pulgadas-tripies_1_muvjcy.webp',
+    ],
+    categoryId: 'sistemas-de-audio-category',
+    features: [],
+    videoUrl: '',
+  },
 ];

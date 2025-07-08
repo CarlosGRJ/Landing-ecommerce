@@ -31,6 +31,12 @@ export const NavMenu = (props: NavigationMenuProps) => (
 
       <NavigationMenuItem>
         <Button variant='ghost' className='text-[15px] font-normal' asChild>
+          <Link href='/all-products'>Todos los productos</Link>
+        </Button>
+      </NavigationMenuItem>
+
+      <NavigationMenuItem>
+        <Button variant='ghost' className='text-[15px] font-normal' asChild>
           <Link href='#contacto'>Contacto</Link>
         </Button>
       </NavigationMenuItem>
