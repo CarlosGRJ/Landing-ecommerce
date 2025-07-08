@@ -15,7 +15,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750978884/mercury12-3_b9xbqg.webp',
     ],
     categoryId: 'bafles-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -33,7 +33,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750979218/mercury-15-4_hwywew.webp',
     ],
     categoryId: 'bafles-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -50,7 +50,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750979431/techno-315-3_wzkigp.webp',
     ],
     categoryId: 'bafles-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -66,7 +66,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750979672/mercury-dsp-1201-2_qhspr3.webp',
     ],
     categoryId: 'bafles-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -83,7 +83,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750979906/MERCURY-DSP-1501-3_f8yzpl.webp',
     ],
     categoryId: 'bafles-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -99,7 +99,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750980071/DIGIPRO-12-2_awscxu.webp',
     ],
     categoryId: 'bafles-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -116,7 +116,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750980228/DIGIPRO-15-3_ckbomj.webp',
     ],
     categoryId: 'bafles-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -132,7 +132,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750980414/NOVA-12-2_qzqkoo.webp',
     ],
     categoryId: 'bafles-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -152,7 +152,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750980582/NOVA-15-6_eh5vjj.webp',
     ],
     categoryId: 'bafles-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -172,7 +172,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750980801/NOVA-215-6_dkmrh8.webp',
     ],
     categoryId: 'bafles-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -190,7 +190,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750981091/VXT-208-4_rbnc1p.webp',
     ],
     categoryId: 'arreglos-lineales-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -207,7 +207,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750981452/VXT-210-3_wrheza.webp',
     ],
     categoryId: 'arreglos-lineales-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -222,7 +222,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750985305/VXT-206_n0w60g.webp',
     ],
     categoryId: 'arreglos-lineales-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -237,7 +237,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750985684/VXT-110_goley0.webp',
     ],
     categoryId: 'arreglos-lineales-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -252,7 +252,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750986323/BUMPER-VXT-206_ewnjln.webp',
     ],
     categoryId: 'arreglos-lineales-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -267,7 +267,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750986408/BUMPER-VXT-110_fxaust.webp',
     ],
     categoryId: 'arreglos-lineales-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -282,7 +282,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750986507/BUMPER-VXT-208_iawivr.webp',
     ],
     categoryId: 'arreglos-lineales-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -297,7 +297,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750986609/BUMPER-VXT-210_nu7yrh.webp',
     ],
     categoryId: 'arreglos-lineales-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -314,7 +314,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750986888/DSP-3-6-3_q6ocvo.webp',
     ],
     categoryId: 'procesadores-audio-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -329,7 +329,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750986671/BUMPER-NOVA-VXT_qxfb8l.webp',
     ],
     categoryId: 'arreglos-lineales-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -346,7 +346,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750988137/COOPER-TWIN-2_r3ogtn.webp',
     ],
     categoryId: 'sistemas-de-audio-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -363,7 +363,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750988513/AURA-12-3_ecbppq.webp',
     ],
     categoryId: 'sistemas-de-audio-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -380,7 +380,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750988658/XPECTRA-800-3_mphoui.webp',
     ],
     categoryId: 'sistemas-de-audio-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -397,7 +397,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750990468/LA-800-3_lo5q5m.webp',
     ],
     categoryId: 'sistemas-de-audio-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -418,7 +418,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750990679/BIG-SU-HYPER-7_a3hx1l.webp',
     ],
     categoryId: 'sistemas-de-audio-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -435,7 +435,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750991981/KWT-25-3_quuduo.webp',
     ],
     categoryId: 'sistemas-de-audio-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -452,7 +452,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750992322/KWS-210-3_k0iooq.webp',
     ],
     categoryId: 'sistemas-de-audio-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -464,7 +464,7 @@ export const PRODUCTS: Product[] = [
     coverImage: '',
     images: [''],
     categoryId: 'sistemas-de-audio-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -484,7 +484,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750993364/VSP15-6_athndj.webp',
     ],
     categoryId: 'subwoofers-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -503,7 +503,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750995189/TERRA-15-5_ewhf0a.webp',
     ],
     categoryId: 'subwoofers-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -522,7 +522,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750995521/VSP18-5_lkhqra.webp',
     ],
     categoryId: 'subwoofers-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -540,7 +540,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750995764/TERRA-18-4_o42zyz.webp',
     ],
     categoryId: 'subwoofers-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -558,7 +558,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750996037/VSP218-4_leyict.webp',
     ],
     categoryId: 'subwoofers-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -574,7 +574,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750996347/LM-552-2_wkixck.webp',
     ],
     categoryId: 'microfonos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -590,7 +590,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750996571/LM-511-2_phnpcm.webp',
     ],
     categoryId: 'microfonos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -605,7 +605,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750996826/LM-33C-1_gq1z8b.webp',
     ],
     categoryId: 'microfonos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -620,7 +620,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750997081/LM-33D-1_itwb7y.webp',
     ],
     categoryId: 'microfonos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -637,7 +637,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750997261/LM-33E-3_pfr558.webp',
     ],
     categoryId: 'microfonos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -653,7 +653,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750997860/V-302-2_nso2yj.webp',
     ],
     categoryId: 'microfonos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -671,7 +671,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750998126/V-304-4_y1s0vz.webp',
     ],
     categoryId: 'microfonos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -693,7 +693,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751028247/V-309-8_qwzfzk.webp',
     ],
     categoryId: 'microfonos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -712,7 +712,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751028468/V-101-5_ar8qjy.webp',
     ],
     categoryId: 'microfonos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -728,7 +728,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751028584/V-103-2_ccl9ds.webp',
     ],
     categoryId: 'microfonos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -743,7 +743,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751028795/D_NQ_NP_2X_632280-MLM82217499161_022025-F-microfono-inalambrico-vhf-doble-de-mano-vamav-pv-104_gdffpq.webp',
     ],
     categoryId: 'microfonos-inalambricos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -758,7 +758,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751068772/PU-501_1_dlejci.webp',
     ],
     categoryId: 'microfonos-inalambricos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -773,7 +773,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069052/PU-502-1_oiuxaz.webp',
     ],
     categoryId: 'microfonos-inalambricos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -788,7 +788,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069122/PU-616-1_dhl7yv.webp',
     ],
     categoryId: 'microfonos-inalambricos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -804,7 +804,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069232/UR-700-2_ytb7mz.webp',
     ],
     categoryId: 'microfonos-inalambricos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -819,7 +819,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069359/PU-703-1_khq9v4.webp',
     ],
     categoryId: 'microfonos-inalambricos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -834,7 +834,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751069707/PU-704-1_atepbe.webp',
     ],
     categoryId: 'microfonos-inalambricos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -849,7 +849,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072306/PU-705-1_djwqwv.webp',
     ],
     categoryId: 'microfonos-inalambricos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -864,7 +864,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072375/PU-5500-1_hzk34b.webp',
     ],
     categoryId: 'microfonos-inalambricos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -879,7 +879,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072492/UR-690-1_igokkb.webp',
     ],
     categoryId: 'microfonos-inalambricos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -894,7 +894,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072843/502USB-1_mabwf6.webp',
     ],
     categoryId: 'mezcladoras-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -910,7 +910,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072848/PMX-120DSP-1_lkdqoh.webp',
     ],
     categoryId: 'mezcladoras-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -927,7 +927,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751072845/PMX-160DSP-2_kj7esv.webp',
     ],
     categoryId: 'mezcladoras-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -943,7 +943,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751073056/SV-6-PRO-1_uouhqg.webp',
     ],
     categoryId: 'mezcladoras-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -959,7 +959,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751073053/SV-8-PRO-1_z1efhf.webp',
     ],
     categoryId: 'mezcladoras-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -975,7 +975,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751073914/SV-12-PRO-1_uccrws.webp',
     ],
     categoryId: 'mezcladoras-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -991,7 +991,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074386/FV-6-1_kea1tf.webp',
     ],
     categoryId: 'mezcladoras-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1007,7 +1007,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074389/FV-8-1_ikbmru.webp',
     ],
     categoryId: 'mezcladoras-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1023,7 +1023,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074766/MV-12-PRO-1_dnkbzx.webp',
     ],
     categoryId: 'mezcladoras-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1039,7 +1039,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074759/MV-16-PRO-1_rnxuqu.webp',
     ],
     categoryId: 'mezcladoras-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1055,7 +1055,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751074762/MV-24-PRO-1_djicw5.webp',
     ],
     categoryId: 'mezcladoras-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1067,7 +1067,7 @@ export const PRODUCTS: Product[] = [
     coverImage: '',
     images: [''],
     categoryId: 'accesorios-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1079,7 +1079,7 @@ export const PRODUCTS: Product[] = [
     coverImage: '',
     images: [''],
     categoryId: 'accesorios-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1091,7 +1091,7 @@ export const PRODUCTS: Product[] = [
     coverImage: '',
     images: [''],
     categoryId: 'accesorios-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1103,7 +1103,7 @@ export const PRODUCTS: Product[] = [
     coverImage: '',
     images: [''],
     categoryId: 'accesorios-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1115,7 +1115,7 @@ export const PRODUCTS: Product[] = [
     coverImage: '',
     images: [''],
     categoryId: 'accesorios-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1131,7 +1131,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751075468/GS-305-2_syenan.webp',
     ],
     categoryId: 'accesorios-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1146,7 +1146,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751075583/BGS-101-1_hq3ejn.webp',
     ],
     categoryId: 'accesorios-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1161,7 +1161,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751075650/KSS-101-1_oj1u8a.webp',
     ],
     categoryId: 'accesorios-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1176,7 +1176,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751075737/STM-101-1_zzqsjf.webp',
     ],
     categoryId: 'accesorios-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1191,7 +1191,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076959/XLRMF1-1_iiz7lg.webp',
     ],
     categoryId: 'cables-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1206,7 +1206,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076945/XLRMF3-1_zncarq.webp',
     ],
     categoryId: 'cables-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1221,7 +1221,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076954/XLRMF6-1_cqj6o0.webp',
     ],
     categoryId: 'cables-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1236,7 +1236,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076949/XLRMF10-1_fcghwv.webp',
     ],
     categoryId: 'cables-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1251,7 +1251,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128445/XLRHMF1-1_wotfva.webp',
     ],
     categoryId: 'cables-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1266,7 +1266,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128450/XLRHMF3-1_ukbecc.webp',
     ],
     categoryId: 'cables-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1281,7 +1281,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128455/XLRHMF6-1_lnajv2.webp',
     ],
     categoryId: 'cables-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1296,7 +1296,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128460/XLRHMF10-1_blivif.webp',
     ],
     categoryId: 'cables-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1311,7 +1311,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128435/SPK5-1_xnu6tp.webp',
     ],
     categoryId: 'cables-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -1326,7 +1326,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128440/SPKH5-1_omstpo.webp',
     ],
     categoryId: 'cables-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   // ########################
@@ -6323,7 +6323,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751681351/Maquina-humo-500w_4_pbgwg4.webp',
     ],
     categoryId: 'humo-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -6341,7 +6341,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751735282/ghost-900_4_nxmx3p.webp',
     ],
     categoryId: 'humo-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -6356,7 +6356,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751761367/Maquina-humo-bajo_frtjvt.webp',
     ],
     categoryId: 'humo-category',
-    features: [''],
+    features: [],
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751761369/Maquina-humo-bajo_uhqbju.mp4',
   },
@@ -6373,9 +6373,27 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751761807/Maquina-humo-undertaker_2_fitoux.webp',
     ],
     categoryId: 'humo-category',
-    features: [''],
+    features: [],
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751761808/maquina-humo-undertaker_xuchiz.mp4',
+  },
+  {
+    id: '06-maquina-humo-atmosphere',
+    name: 'Máquina de humo atmósphere  3000 wats vertical control inalámbrico ,dmx',
+    description: 'Máquina De Humo Niebla Baja Densidad Hielo 900w By Steelpro',
+    slug: 'maquina-humo-atmosphere',
+    price: 3500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751949838/maquina-humo-atmosphere_1_x0dlfd.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751949838/maquina-humo-atmosphere_1_x0dlfd.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751949834/maquina-humo-atmosphere_2_gmiolp.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751949839/maquina-humo-atmosphere_3_m3pwa1.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751949835/maquina-humo-atmosphere_4_lws25q.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [],
+    videoUrl: '',
   },
 
   // iluminacion
@@ -6392,7 +6410,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751735749/Canon-18x10w-aro_2_qtfuvw.webp',
     ],
     categoryId: 'iluminacion-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -6408,7 +6426,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751744909/Balon-retro-cabeza-movil_2_fjw4gw.webp',
     ],
     categoryId: 'iluminacion-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -6424,7 +6442,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751745438/Ovni-multiefecto_2_wfzlh6.webp',
     ],
     categoryId: 'iluminacion-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
 
@@ -6443,7 +6461,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751746223/Hubble_3_wdjwqg.webp',
     ],
     categoryId: 'luces-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -6459,7 +6477,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751747409/FADE-285_2_fsnhbo.webp',
     ],
     categoryId: 'luces-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -6475,7 +6493,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751748084/FRACTAL_2_xrg275.webp',
     ],
     categoryId: 'luces-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -6491,7 +6509,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751748765/Mini-spider_2_u6vjlx.webp',
     ],
     categoryId: 'luces-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -6507,7 +6525,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751749586/CM014_2_zxbbvy.webp',
     ],
     categoryId: 'luces-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -6523,7 +6541,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751763108/JOYFIRST-14R-300W_2_asgq9z.webp',
     ],
     categoryId: 'luces-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -6538,7 +6556,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751765183/ruby-4x4_1_fs9mqx.webp',
     ],
     categoryId: 'luces-category',
-    features: [''],
+    features: [],
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751765184/ruby-4x4_lyl6js.mp4',
   },
@@ -6554,7 +6572,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751766359/cabezas-9r-aro_zlyh64.webp',
     ],
     categoryId: 'luces-category',
-    features: [''],
+    features: [],
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751766361/cabezas_myej7y.mp4',
   },
@@ -6574,7 +6592,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751753808/estructura-mini_3_ky3ebx.webp',
     ],
     categoryId: 'estructuras-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -6589,9 +6607,101 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751753803/estructura-3-galvanizado_1_xlptgr.webp',
     ],
     categoryId: 'estructuras-category',
-    features: [''],
+    features: [],
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751753813/estructura-3-galvanizado_yzlubi.mp4',
+  },
+  {
+    id: '02-estructura-2-galvanizado',
+    name: 'Estructura dos metros acero galvanizado',
+    description: '',
+    slug: 'estructura-2-galvanizado',
+    price: 1150.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751946468/Estructura-2m-galvanizado_qemty6.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751946468/Estructura-2m-galvanizado_qemty6.webp',
+    ],
+    categoryId: 'estructuras-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '03-estructura-2_5-galvanizado',
+    name: 'Estructura 2.5 metros acero galvanizado',
+    description: '',
+    slug: 'estructura-2_5-galvanizado',
+    price: 1200.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751947062/Estructura-2_5m-galvanizado_mxob8y.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751947062/Estructura-2_5m-galvanizado_mxob8y.webp',
+    ],
+    categoryId: 'estructuras-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '04-estructura-1_5-galvanizado',
+    name: 'Estructura 1.5 metros acero galvanizado',
+    description: '',
+    slug: 'estructura-1_5-galvanizado',
+    price: 1080.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751947066/estructura-1_5-galvanizado_u8dx8s.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751947066/estructura-1_5-galvanizado_u8dx8s.webp',
+    ],
+    categoryId: 'estructuras-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '05-estructura-1-galvanizado',
+    name: 'Estructura 1 metro acero galvanizado',
+    description: '',
+    slug: 'estructura-1-galvanizado',
+    price: 1000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751947064/Estructura-1m-galvanizado_fdyfpp.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751947064/Estructura-1m-galvanizado_fdyfpp.webp',
+    ],
+    categoryId: 'estructuras-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '06-base-para-estructura-61x61-galvanizado',
+    name: 'Base para estructura 61x61 acero galvanizado',
+    description: '',
+    slug: 'base-para-estructura-61x61-galvanizado',
+    price: 1250.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751947458/Base-estructura-61x61_1_jttams.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751947458/Base-estructura-61x61_1_jttams.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751947458/Base-estructura-61x61_2_vqzn8e.webp',
+    ],
+    categoryId: 'estructuras-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '07-base-para-estructura-tipo-h-galvanizado',
+    name: 'Base para estructura tipo h acero galvanizado',
+    description: '',
+    slug: 'base-para-estructura-tipo-h-galvanizado',
+    price: 1250.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751947678/Base-estructura-tipo-h-galvanizado_1_yxiat5.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751947678/Base-estructura-tipo-h-galvanizado_1_yxiat5.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751947678/Base-estructura-tipo-h-galvanizado_2_d7hz1i.webp',
+    ],
+    categoryId: 'estructuras-category',
+    features: ['Con niveladores'],
+    videoUrl: '',
   },
 
   // Accesorios
@@ -6608,7 +6718,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751772259/Controller-DMX-512_2_tx6l14.webp',
     ],
     categoryId: 'accesorios-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
 
@@ -6626,7 +6736,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751772740/VORTEX-1000_2_k5f22f.webp',
     ],
     categoryId: 'efectos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -6642,7 +6752,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751773092/Jet-CO2-RGB_2_nl80ye.webp',
     ],
     categoryId: 'efectos-category',
-    features: [''],
+    features: [],
     videoUrl: '',
   },
   {
@@ -6659,7 +6769,7 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751774108/FIAMMAX2_2_yeb8xu.webp',
     ],
     categoryId: 'efectos-category',
-    features: [''],
+    features: [],
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751774111/FIAMMAX2_gmug6d.mp4',
   },
@@ -6836,6 +6946,85 @@ export const PRODUCTS: Product[] = [
     features: [],
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751855663/maquina-nieve-1_eyajfm.mp4',
+  },
+  {
+    id: '14-chispero-luz-fria-2-metros-15-segundos',
+    name: 'Chispero luz fría 2 metros 15 segundos',
+    description: '',
+    slug: 'chispero-luz-fria-2-metros-15-segundos',
+    price: 38.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751948091/chispero-luz-fria-2-metros-15-segundos_2_hby2hv.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751948091/chispero-luz-fria-2-metros-15-segundos_2_hby2hv.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751948090/chispero-luz-fria-2-metros-15-segundos_1_wrkqxa.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '15-chispero-luz-fria-3-tiempos',
+    name: 'Chispero para exterior 3 tiempos luz fría',
+    description: '',
+    slug: 'chispero-luz-fria-3-tiempos',
+    price: 65.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751948431/chispero-luz-fria-3-tiempos_1_g3sr0s.jpg',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751948431/chispero-luz-fria-3-tiempos_1_g3sr0s.jpg',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751948431/chispero-luz-fria-3-tiempos_2_zay2pv.jpg',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '16-bomba-de-humo-de-colores-para-exterior',
+    name: 'Bomba de humo de colores para exterior',
+    description: '',
+    slug: 'bomba-de-humo-de-colores-para-exterior',
+    price: 85.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751948612/bomba-de-humo-de-colores-para-exterior_1_hc975y.jpg',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751948612/bomba-de-humo-de-colores-para-exterior_1_hc975y.jpg',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751948614/bomba-de-humo-de-colores-para-exterior_2_kevmxx.jpg',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '17-detonador-recargable-4-piezas-con-estuche',
+    name: 'Detonador recargable 4 piezas con estuche',
+    description: '',
+    slug: 'detonador-recargable-4-piezas-con-estuche',
+    price: 1150.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751949233/detonador-recargable-4-piezas-con-estuche_1_ro7b9f.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751949233/detonador-recargable-4-piezas-con-estuche_1_ro7b9f.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751949234/detonador-recargable-4-piezas-con-estuche_2_nypxfd.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '18-detonador-recargable-8-piezas-con-estuche',
+    name: 'Detonador recargable 8 piezas con estuche',
+    description: '',
+    slug: 'detonador-recargable-8-piezas-con-estuche',
+    price: 1700.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751949423/detonador-recargable-8-piezas-con-estuche_1_yjknlk.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751949423/detonador-recargable-8-piezas-con-estuche_1_yjknlk.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl: '',
   },
 
   // Lasers
