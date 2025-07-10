@@ -1232,7 +1232,7 @@ export const PRODUCTS: Product[] = [
     name: 'SPK5',
     slug: 'cables-spk5',
     description: 'CABLE PARA BAFLE SPEAKON 16GA 5M',
-    price: 78.0,
+    price: 350.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128435/SPK5-1_xnu6tp.webp',
     images: [
@@ -1247,7 +1247,7 @@ export const PRODUCTS: Product[] = [
     name: 'SPKH5',
     slug: 'cables-spkh5',
     description: 'CABLE PARA BAFLE SPEAKON 16GA 10m',
-    price: 109.0,
+    price: 450.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128440/SPKH5-1_omstpo.webp',
     images: [
