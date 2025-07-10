@@ -5988,11 +5988,11 @@ export const PRODUCTS: Product[] = [
     slug: 'MINI-SPOD-30W-X2',
     price: 7479.0,
     coverImage:
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171217/CHROMA-230_1_rjehmi.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171469/MINI-SPOD-30W-X2_1_d27zow.webp',
     images: [
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171217/CHROMA-230_1_rjehmi.webp',
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171218/CHROMA-230_2_zmimtd.webp',
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171216/CHROMA-230_3_kunrw4.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171469/MINI-SPOD-30W-X2_1_d27zow.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171468/MINI-SPOD-30W-X2_2_o5qava.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171468/MINI-SPOD-30W-X2_3_wriuft.webp',
     ],
     categoryId: 'luces-category',
     features: [],
