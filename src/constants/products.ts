@@ -1740,8 +1740,12 @@ export const PRODUCTS: Product[] = [
     price: 985.0,
     description: 'JZG 8X2',
     slug: 'jzg-8x2',
-    coverImage: '',
-    images: [],
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752172697/JZG-8X2_1_h6vqut.png',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752172697/JZG-8X2_1_h6vqut.png',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752172697/JZG-8X2_2_nxbnoz.png',
+    ],
     categoryId: 'bocinas-category',
     features: [],
     videoUrl: '',
@@ -3519,7 +3523,7 @@ export const PRODUCTS: Product[] = [
     name: 'JZG-2X12 100M',
     slug: 'jzg-2x12-100m',
     description: '',
-    price: 1200.0,
+    price: 1400.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340844/JZG-2X12-100M_1_mcnmcc.webp',
     images: [
@@ -3534,7 +3538,7 @@ export const PRODUCTS: Product[] = [
     name: 'JZG-2X14 100M',
     slug: 'jzg-2x14-100m',
     description: '',
-    price: 800.0,
+    price: 1900.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340850/JZG-2X14-100M_s3xqfc.webp',
     images: [
@@ -3549,7 +3553,7 @@ export const PRODUCTS: Product[] = [
     name: 'JZG-2X16 100M',
     slug: 'jzg-2x16-100m',
     description: '',
-    price: 670.0,
+    price: 2200.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751340854/JZG_2X16-100M_cx0zrn.webp',
     images: [
@@ -5541,7 +5545,7 @@ export const PRODUCTS: Product[] = [
     name: 'Cabina curva',
     description: 'Cabina curva 800 leds',
     slug: 'cabina-curva-800-leds',
-    price: 15000.0,
+    price: 15500.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751669199/Cabina-curva-800-leds_bhseoc.webp',
     images: [
@@ -5557,7 +5561,7 @@ export const PRODUCTS: Product[] = [
     name: 'Cabina de burbujas',
     description: 'Cabina de burbujas de 800 leds',
     slug: 'cabina-burbujas-800-leds',
-    price: 10200.0,
+    price: 10800.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751669479/Cabina-burbujas-800-leds_zzgxib.webp',
     images: [
@@ -5572,7 +5576,7 @@ export const PRODUCTS: Product[] = [
     name: 'Cabina 600 leds con perimetrales',
     description: 'Cabina 600 leds con perimetrales',
     slug: 'cabina-600-leds',
-    price: 12500.0,
+    price: 13000.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752123267/Cabina-600-leds-perimetrales_rfjvc1.webp',
     images: [
@@ -5588,7 +5592,7 @@ export const PRODUCTS: Product[] = [
     name: 'Cabina con app',
     description: 'Cabina 600 leds con app',
     slug: 'cabina-600-leds-app',
-    price: 6900.0,
+    price: 7200.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751671528/Cabina-600-leds-app_anucpz.webp',
     images: [
@@ -5882,7 +5886,7 @@ export const PRODUCTS: Product[] = [
     name: 'Ruby 4x4',
     description: '',
     slug: 'ruby-4x4',
-    price: 5000.0,
+    price: 3500.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751765183/ruby-4x4_1_fs9mqx.webp',
     images: [
@@ -5993,6 +5997,24 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171469/MINI-SPOD-30W-X2_1_d27zow.webp',
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171468/MINI-SPOD-30W-X2_2_o5qava.webp',
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171468/MINI-SPOD-30W-X2_3_wriuft.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '16-9R-TOUR_1',
+    name: 'Case 2 Cabezas Moviles Beam 9r Efecto Arcoiris Steelpro',
+    description:
+      'Case 2 Cabezas Moviles Beam 9r Efecto Arcoiris/agua/ Disco de 10 Gobos + 4 Dicroicos / DISCO 15 COLORE S + ARO SMD RGB FULL COLOR LUCES LED LUZ ESCENARIO DMX Steelpro',
+    slug: '9R-TOUR_1',
+    price: 14000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752173224/9R-TOUR_1_ibwlas.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752173224/9R-TOUR_1_ibwlas.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752173220/9R-TOUR_2_n6bnrx.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752173222/9R-TOUR_3_b7iwmm.webp',
     ],
     categoryId: 'luces-category',
     features: [],
@@ -6132,7 +6154,7 @@ export const PRODUCTS: Product[] = [
     name: 'Megaluz Controlador De Iluminación DMX 512',
     description: '',
     slug: 'controlador-dmx-512',
-    price: 566.0, // PENDIENTE
+    price: 900.0, // PENDIENTE
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751772259/Controller-DMX-512_1_jqewsp.webp',
     images: [
