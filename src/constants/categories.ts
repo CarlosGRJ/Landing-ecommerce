@@ -285,4 +285,15 @@ export const CATEGORIES: Category[] = [
     image: '/images/estructuras.webp',
     alt: 'Trusses y estructuras para escenarios y eventos',
   },
+  {
+    id: 'pantallas-category',
+    name: 'Pantallas',
+    slug: 'pantallas',
+    description:
+      'Descubre nuestra amplia gama de pantallas LED para eventos, conferencias, conciertos y bodas. Pantallas de alta resolución, variados tamaños y opciones modulares para adaptarse a cualquier espacio o montaje.',
+    shortDesc: 'Pantallas LED y proyectores para eventos.',
+    color: 'text-blue-600',
+    image: '/images/pantallas.webp',
+    alt: 'Pantallas LED para eventos y espectáculos',
+  },
 ];

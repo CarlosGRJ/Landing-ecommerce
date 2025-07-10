@@ -1542,7 +1542,7 @@ export const PRODUCTS: Product[] = [
     images: [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751591932/DSC-24X-DSP_vhgl1w.webp',
     ],
-    categoryId: '',
+    categoryId: 'procesadores-audio-category',
     features: [],
     videoUrl: '',
   },
@@ -3934,7 +3934,7 @@ export const PRODUCTS: Product[] = [
     name: 'TINY WASH',
     description: 'MINI ROBOT WASH 7x10w RGBW',
     slug: 'tiny-wash',
-    price: 800.0,
+    price: 1065.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751403745/TINY-WASH_1_m5faww.webp',
     images: [
@@ -3950,7 +3950,7 @@ export const PRODUCTS: Product[] = [
     name: 'TINY BEAM',
     description: 'MINI BEAM 18*3 RGB (6 ROJOS, 6 AZULES 6 VERDES)',
     slug: 'tiny-beam',
-    price: 800.0,
+    price: 1065.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751404501/TINY-BEAM_1_e79e0x.webp',
     images: [
@@ -3967,7 +3967,7 @@ export const PRODUCTS: Product[] = [
     name: 'MINI BAR BEAM',
     description: 'MINI EFECTO LED BEAM 8x3w RGB',
     slug: 'mini-bar-beam',
-    price: 800.0,
+    price: 1065.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751404942/MINI-BAR-BEAM_1_dpvypo.webp',
     images: [
@@ -4015,7 +4015,7 @@ export const PRODUCTS: Product[] = [
     name: 'CONTOUR 30',
     description: 'MINI SPOT LED 30w, CON ARO RBG SMD',
     slug: 'contour-30',
-    price: 1200.0,
+    price: 1598.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751405573/CONTOUR-30_1_mwyovd.webp',
     images: [
@@ -4030,7 +4030,7 @@ export const PRODUCTS: Product[] = [
     name: 'CONTOUR 30*4',
     description: 'MINI SPOT LED 30w (4 PIEZAS + CASE) CON LED SMD',
     slug: 'contour-30-4',
-    price: 4800.0,
+    price: 6389.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751405714/CONTOUR-30x4_1_jsszl7.webp',
     images: [
@@ -4046,7 +4046,7 @@ export const PRODUCTS: Product[] = [
     name: 'MINISPOT 60W',
     description: 'MINI SPOT LED 60w, CON ARO RBG SMD',
     slug: 'minispot-60w',
-    price: 1500.0,
+    price: 1997.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751405866/MINISPOT-60W_1_zxxiee.webp',
     images: [
@@ -4062,7 +4062,7 @@ export const PRODUCTS: Product[] = [
     name: 'MINISPOT 60*4',
     description: 'MINI SPOT LED 60w (4 PIEZAS + CASE)',
     slug: 'minispot-60-4',
-    price: 6000.0,
+    price: 7986.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751406189/MINISPOT-60x4_1_krx7vg.webp',
     images: [
@@ -4078,7 +4078,7 @@ export const PRODUCTS: Product[] = [
     name: 'BEAMER 40',
     description: 'MINI BEAM LED 40w, CON ARO RBG SMD',
     slug: 'beamer-40',
-    price: 1000.0,
+    price: 1331.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751406340/BEAMER-40_1_juyoxc.webp',
     images: [
@@ -4182,7 +4182,7 @@ export const PRODUCTS: Product[] = [
     name: 'PYTHON SPOT',
     description: 'MINI ESPOT30W CON EFECTO CALEIDOSCOPIO',
     slug: 'python-spot',
-    price: 1900.0,
+    price: 2529.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751407538/PYTHON-SPOT_1_gjvugt.webp',
     images: [
@@ -4199,7 +4199,7 @@ export const PRODUCTS: Product[] = [
     name: 'PYTHON SPOT*2',
     description: 'MINI ESPOT30W CON EFECTO CALEIDOSCOPIO CASE CON 2 PZAS',
     slug: 'python-spot-2',
-    price: 3800.0,
+    price: 5058.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751407755/PYTHON_SPOTx2_1_thp5iw.webp',
     images: [
@@ -4213,8 +4213,8 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: '17-mini-r1',
-    name: 'MINI R1',
-    description: 'MINI ESPOT30W CON EFECTO CALEIDOSCOPIO CASE CON 2 PZAS',
+    name: 'MINI R1 BEAM',
+    description: 'Cabeza Robotica Mini R1 Beam led 90w',
     slug: 'mini-r1',
     price: 3495.66,
     coverImage:
@@ -4359,10 +4359,10 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: '25-spot-90w-led',
-    name: 'SPOT 90W LED',
+    name: 'SPOT 90W LED 2 piezas',
     description: 'SPOT 90w LED (2 PIEZAS + CASE)',
     slug: 'spot-90w-led',
-    price: 5000.0,
+    price: 6655.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751409910/SPOT-90W-LED_1_o3xtr6.webp',
     images: [
@@ -4446,7 +4446,7 @@ export const PRODUCTS: Product[] = [
     name: 'GALAXY II',
     description: 'LASER (MULTIPUNTOS, MOON, ESTROBO)',
     slug: 'galaxy-ii',
-    price: 500,
+    price: 666.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751426266/GALAXY-II_1_rzv6lm.webp',
     images: [
@@ -4531,7 +4531,7 @@ export const PRODUCTS: Product[] = [
     name: 'BURNITE',
     description: 'LASER RGB 6W ILDA, DMX, CONTROL DIRECTO',
     slug: 'burnite',
-    price: 10500.0,
+    price: 10515.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751428510/BURNITE_jd14gt.webp',
     images: [
@@ -4761,7 +4761,7 @@ export const PRODUCTS: Product[] = [
     name: 'PAR 18*10 RGBWA',
     description: 'PAR LED 18x10w RGBWA DMX',
     slug: 'par-18-10-rgbwa',
-    price: 1600.0,
+    price: 1505.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751432008/PAR-18x10-RGBWA_1_zo0saz.webp',
     images: [
@@ -4793,7 +4793,7 @@ export const PRODUCTS: Product[] = [
     name: 'PAR 78*3 IP65',
     description: 'PAR LED 78*3W IP 65',
     slug: 'par-78-3-ip65',
-    price: 1900.0,
+    price: 2529.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751507876/PAR-78x3-IP65_1_eeowiq.webp',
     images: [
@@ -4956,7 +4956,7 @@ export const PRODUCTS: Product[] = [
     name: 'DMX001',
     description: 'CABLE DMX 1 MT',
     slug: 'dmx001',
-    price: 58.48,
+    price: 95.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751575069/DMX001_bxwohn.webp',
     images: [
@@ -4971,7 +4971,7 @@ export const PRODUCTS: Product[] = [
     name: 'DMX003',
     description: 'CABLE DMX 3 MT',
     slug: 'dmx003',
-    price: 77.97,
+    price: 120.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751575065/DMX003_bo9rhm.webp',
     images: [
@@ -4986,7 +4986,7 @@ export const PRODUCTS: Product[] = [
     name: 'DMX006',
     description: 'CABLE DMX 6 MT',
     slug: 'dmx006',
-    price: 129.95,
+    price: 180.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751575067/DMX006_diihx1.webp',
     images: [
@@ -5001,7 +5001,7 @@ export const PRODUCTS: Product[] = [
     name: 'DMX010',
     description: 'CABLE DMX 10 MT',
     slug: 'dmx010',
-    price: 175.43,
+    price: 235.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751575064/DMX010_re07ec.webp',
     images: [
@@ -5016,7 +5016,7 @@ export const PRODUCTS: Product[] = [
     name: 'XLRFIP65',
     description: 'CABLE IP 65 HEMBRA',
     slug: 'xlrfip65',
-    price: 90.97,
+    price: 122.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751575538/XLRFIP65_thh0yz.webp',
     images: [
@@ -5031,7 +5031,7 @@ export const PRODUCTS: Product[] = [
     name: 'XLRMIP65',
     description: 'CABLE IP 65 MACHO',
     slug: 'xlrmip65',
-    price: 90.97,
+    price: 122.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751575682/XLRMIP65_zh4nht.webp',
     images: [
@@ -5129,7 +5129,7 @@ export const PRODUCTS: Product[] = [
     name: 'AZTEK 50',
     description: 'BARRA RGBW 5 LEDS DE 10W',
     slug: 'aztek-50',
-    price: 945.0,
+    price: 1198.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751580201/AZTEK-50_1_hekniw.webp',
     images: [
@@ -5146,7 +5146,7 @@ export const PRODUCTS: Product[] = [
     name: 'AZTEK 100',
     description: 'BARRA RGBW 10 LEDS DE 12W',
     slug: 'aztek-100',
-    price: 1450.0,
+    price: 1598.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751580293/AZTEK-100_1_qumlz1.webp',
     images: [
@@ -5163,7 +5163,7 @@ export const PRODUCTS: Product[] = [
     name: 'GLOW BAR',
     description: 'BARRA LED UV 9 LEDS 10W',
     slug: 'glow-bar',
-    price: 584.78,
+    price: 779.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751580512/GLOW-BAR_1_arvjsz.webp',
     images: [
@@ -5180,7 +5180,7 @@ export const PRODUCTS: Product[] = [
     name: '2R',
     description: 'LAMPARA DE DESCARGA 132w-65v (USO PROFESIONAL)',
     slug: '2r',
-    price: 829.08,
+    price: 733.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751581253/2R_gaphlz.webp',
     images: [
@@ -5195,7 +5195,7 @@ export const PRODUCTS: Product[] = [
     name: '10R',
     description: 'LAMPARA DE DESCARGA 280w-65v (USO PROFESIONAL)',
     slug: '10r',
-    price: 1428.15,
+    price: 1263.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751581264/10R_gpznlj.webp',
     images: [
@@ -5210,7 +5210,7 @@ export const PRODUCTS: Product[] = [
     name: 'CLAMP S',
     description: 'CLAMP DE ALUMINIO PARA TUBO DE 1.5" SOPORTA 25Kg',
     slug: 'clamp-s',
-    price: 61.08,
+    price: 55.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751581250/CLAMP-S_khden9.webp',
     images: [
@@ -5225,7 +5225,7 @@ export const PRODUCTS: Product[] = [
     name: 'CLAMP L',
     description: 'CLAMP DE ALUMINIO PARA TUBO DE 2" SOPORTA 25Kg',
     slug: 'clamp-l',
-    price: 83.17,
+    price: 74.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751581257/CLAMP-L_ar6gmw.webp',
     images: [
@@ -5240,7 +5240,7 @@ export const PRODUCTS: Product[] = [
     name: 'CLAMP B',
     description: 'CLAMP DE ALUMINIO PARA TUBO DE 2" SOPORTA 50Kg',
     slug: 'clamp-b',
-    price: 64.98,
+    price: 58.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751581268/CLAMP-B_ldlvqm.webp',
     images: [
@@ -5255,7 +5255,7 @@ export const PRODUCTS: Product[] = [
     name: 'HM50',
     description: 'CLAMP DE ALUMINIO PARA TUBO DE 1 1/2" SOPORTA 50Kg',
     slug: 'hm50',
-    price: 114.36,
+    price: 101.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751581261/HM50_vr0rrg.webp',
     images: [
@@ -5909,6 +5909,95 @@ export const PRODUCTS: Product[] = [
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751766361/cabezas_myej7y.mp4',
   },
+  {
+    id: '11-2-led-wash-cegador-dmx512',
+    name: '2 Led Wash Cegador DMX512',
+    description: '200w Luces Escenario Luces Dmx Con 2 Led Wash Cegador DMX512',
+    slug: '2-led-wash-cegador-dmx512',
+    price: 1900.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752124843/2-Led-Wash-Cegador-DMX512_1_ec2yfh.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752124843/2-Led-Wash-Cegador-DMX512_1_ec2yfh.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752124842/2-Led-Wash-Cegador-DMX512_2_zermtq.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752124841/2-Led-Wash-Cegador-DMX512_3_vagz0b.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752124841/2-Led-Wash-Cegador-DMX512_4_wunowb.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '12-4x100w-cob-led-par-dmx-blinder-stage-light',
+    name: '4x100w COB LED Par DMX Blinder Stage Light',
+    description:
+      '4x100w COB LED Par DMX Blinder Stage Lights, 4 Eye Matrix for Stage Lighting, 3200k Warm White Color Party DJ Disco Lights for Wedding Parties',
+    slug: '4x100w-cob-led-par-dmx-blinder-stage-light',
+    price: 4000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752125895/4x100w-Par-DMX-Blinder-Stage_1_jitxxt.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752125895/4x100w-Par-DMX-Blinder-Stage_1_jitxxt.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752125892/4x100w-Par-DMX-Blinder-Stage_2_wvbjxe.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752125891/4x100w-Par-DMX-Blinder-Stage_3_ezcodm.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752125894/4x100w-Par-DMX-Blinder-Stage_4_uyircf.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '13-MINI1R-TOURING-BAG',
+    name: '4x100w COB LED Par DMX Blinder Stage Light MINI1R-TOURING-BAG',
+    description:
+      'Par de luces robóticas 120W Mini 1 R touring prisma rotatorio 18 caras efecto Rainbow disco 8 colores / 7 colores Aro SMD / 8 Gobos Metalicos 2 Dicroicos DMX512 / 12 Y 14 CANALES Steelpro',
+    slug: 'MINI1R-TOURING-BAG',
+    price: 5399.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171219/MINI1R-TOURING-BAG_1_ac1oyg.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171219/MINI1R-TOURING-BAG_1_ac1oyg.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171217/MINI1R-TOURING-BAG_2_a3zld5.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171217/MINI1R-TOURING-BAG_3_zquqpi.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '14-CHROMA-230',
+    name: 'CHROMA-230 2 Cabezas Móviles + Case Led Beam ',
+    description: '2 Cabezas Móviles + Case Led Beam 7r Rainbow/frost Steelpro',
+    slug: 'CHROMA-230',
+    price: 13340.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171217/CHROMA-230_1_rjehmi.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171217/CHROMA-230_1_rjehmi.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171218/CHROMA-230_2_zmimtd.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171216/CHROMA-230_3_kunrw4.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '15-MINI-SPOD-30W-X2',
+    name: '2 Cabezas Moviles Minispot 30w',
+    description: '',
+    slug: 'MINI-SPOD-30W-X2',
+    price: 7479.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171217/CHROMA-230_1_rjehmi.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171217/CHROMA-230_1_rjehmi.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171218/CHROMA-230_2_zmimtd.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752171216/CHROMA-230_3_kunrw4.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [],
+    videoUrl: '',
+  },
 
   //Estructuras
   {
@@ -6377,6 +6466,57 @@ export const PRODUCTS: Product[] = [
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751856841/barra-laser-1-color_offbdu.mp4',
   },
+  {
+    id: '01-laser-rgb-5w-bluetooth-dmx',
+    name: 'Láser Rgb 5w Bluetooth Dmx con App',
+    description: '',
+    slug: 'laser-rgb-5w-bluetooth-dmx',
+    price: 10500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752124535/Laser-Rgb-5w-Bluetooth-Dmx_1_a4ohpu.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752124535/Laser-Rgb-5w-Bluetooth-Dmx_1_a4ohpu.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752124535/Laser-Rgb-5w-Bluetooth-Dmx_2_vfxmi6.webp',
+    ],
+    categoryId: 'lasers-category',
+    features: ['Con App'],
+    videoUrl: '',
+  },
+  {
+    id: '02-laser-potente-rgb-3w',
+    name: 'Láser Potente Rgb 3W con App',
+    description: 'Láser Potente Rgb 3w Watt Play Store Sonido App Dmx',
+    slug: 'laser-potente-rgb-3w',
+    price: 4800.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752125255/laser-potente-rgb-3w_1_ukucpn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752125255/laser-potente-rgb-3w_1_ukucpn.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752125253/laser-potente-rgb-3w_2_yrkq16.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752125254/laser-potente-rgb-3w_3_k6lkhs.webp',
+    ],
+    categoryId: 'lasers-category',
+    features: ['Con App'],
+    videoUrl: '',
+  },
+  {
+    id: '03-laser-potente-rgb-2w',
+    name: 'Luz láser RGB de 2W a todo color con App',
+    description:
+      'Luz láser RGB de 2W a todo color, dibujo animado, animación, rayo láser, escenario, DJ',
+    slug: 'laser-potente-rgb-2w',
+    price: 3800.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752125547/Luz-laser-RGB-2W-todo-color_1_jrofpb.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752125547/Luz-laser-RGB-2W-todo-color_1_jrofpb.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752125544/Luz-laser-RGB-2W-todo-color_2_wbq8cr.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752125544/Luz-laser-RGB-2W-todo-color_3_ovmqsu.webp',
+    ],
+    categoryId: 'lasers-category',
+    features: ['Con App'],
+    videoUrl: '',
+  },
 
   // Sistemas de audio
   {
@@ -6412,4 +6552,6 @@ export const PRODUCTS: Product[] = [
     features: [],
     videoUrl: '',
   },
+
+  // Pantallas
 ];
