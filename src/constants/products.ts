@@ -1741,10 +1741,10 @@ export const PRODUCTS: Product[] = [
     description: 'JZG 8X2',
     slug: 'jzg-8x2',
     coverImage:
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752172697/JZG-8X2_1_h6vqut.png',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752173774/JZG-8X2_1_buh99m.webp',
     images: [
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752172697/JZG-8X2_1_h6vqut.png',
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752172697/JZG-8X2_2_nxbnoz.png',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752173774/JZG-8X2_1_buh99m.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752173774/JZG-8X2_2_awyev1.webp',
     ],
     categoryId: 'bocinas-category',
     features: [],
