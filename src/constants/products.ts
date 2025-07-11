@@ -1112,7 +1112,7 @@ export const PRODUCTS: Product[] = [
     name: 'XLRMF1',
     slug: 'cables-xlrmf1',
     description: 'Cable audio XLR 1m',
-    price: 55.0,
+    price: 95.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076959/XLRMF1-1_iiz7lg.webp',
     images: [
@@ -1127,7 +1127,7 @@ export const PRODUCTS: Product[] = [
     name: 'XLRMF3',
     slug: 'cables-xlrmf3',
     description: 'Cable audio XLR 3m',
-    price: 62.0,
+    price: 140.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076945/XLRMF3-1_zncarq.webp',
     images: [
@@ -1142,7 +1142,7 @@ export const PRODUCTS: Product[] = [
     name: 'XLRMF6',
     slug: 'cables-xlrmf6',
     description: 'Cable audio XLR 6m',
-    price: 83.0,
+    price: 180.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076954/XLRMF6-1_cqj6o0.webp',
     images: [
@@ -1157,7 +1157,7 @@ export const PRODUCTS: Product[] = [
     name: 'XLRMF10',
     slug: 'cables-xlrmf10',
     description: 'Cable audio XLR 10m',
-    price: 108.0,
+    price: 230.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751076949/XLRMF10-1_fcghwv.webp',
     images: [
@@ -1172,7 +1172,7 @@ export const PRODUCTS: Product[] = [
     name: 'XLRHMF1',
     slug: 'cables-xlrhmf1',
     description: 'Cable XLR profesional 1m',
-    price: 69.0,
+    price: 95.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128445/XLRHMF1-1_wotfva.webp',
     images: [
@@ -1187,7 +1187,7 @@ export const PRODUCTS: Product[] = [
     name: 'XLRHMF3',
     slug: 'cables-xlrhmf3',
     description: 'Cable de audio XLR conector profesional 3m',
-    price: 78.0,
+    price: 140.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128450/XLRHMF3-1_ukbecc.webp',
     images: [
@@ -1202,7 +1202,7 @@ export const PRODUCTS: Product[] = [
     name: 'XLRHMF6',
     slug: 'cables-xlrhmf6',
     description: 'Cable de audio XLR conector profesional 6m',
-    price: 116.0,
+    price: 180.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128455/XLRHMF6-1_lnajv2.webp',
     images: [
@@ -1217,7 +1217,7 @@ export const PRODUCTS: Product[] = [
     name: 'XLRHMF10',
     slug: 'cables-xlrhmf10',
     description: 'Cable de audio XLR conector profesional 10m',
-    price: 158.0,
+    price: 230.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751128460/XLRHMF10-1_blivif.webp',
     images: [
@@ -5521,6 +5521,22 @@ export const PRODUCTS: Product[] = [
     features: [],
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1751754603/motor-esfera-grande_w18aex.mp4',
+  },
+  {
+    id: '08-esfera-9-in',
+    name: 'Esfera 9 in',
+    description: '',
+    slug: 'esfera-9-in',
+    price: 780.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752266176/esfera-9-in_1_z2o6ip.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752266176/esfera-9-in_1_z2o6ip.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1752266176/esfera-9-in_2_tvafvw.webp',
+    ],
+    categoryId: 'esferas-category',
+    features: [],
+    videoUrl: '',
   },
 
   // Cabinas
