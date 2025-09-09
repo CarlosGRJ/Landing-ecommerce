@@ -176,6 +176,101 @@ export const PRODUCTS: Product[] = [
     videoUrl: '',
   },
   {
+    id: '010-Bafle-SP-15',
+    name: 'Bafle SP 15',
+    slug: 'bafle-sp-15',
+    description: 'Bafle SP 15, Bluetooth 500 rms, cortes de forma digital',
+    price: 6900.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757352970/bafle-sp-15_1_czm5kb.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757352970/bafle-sp-15_1_czm5kb.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757352970/bafle-sp-15_2_sr5a00.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757352970/bafle-sp-15_3_hz0qns.webp',
+    ],
+    categoryId: 'bafles-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '011-sp-advanced',
+    name: 'Sp Advanced',
+    slug: 'sp-advanced',
+    description:
+      'Sp advanced , 600 rms, cortes de forma digital, exelente para monitor',
+    price: 9300.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757354178/sp-15-advanced_1_moluzb.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757354178/sp-15-advanced_1_moluzb.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757354178/sp-15-advanced_2_aja5u6.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757354177/sp-15-advanced_3_kvrxbt.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757354177/sp-15-advanced_4_lrcymt.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757354177/sp-15-advanced_5_saob0h.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757354179/sp-15-advanced_6_peuhed.webp',
+    ],
+    categoryId: 'bafles-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '012-Qmc-Max-115',
+    name: 'QMC Max 115',
+    slug: 'qmc-max-115',
+    description:
+      'Bafle Max 15 cajón de madera, cortes de forma digital, Bluetooth, exelente para el monitor 1000watts',
+    price: 8800.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757358080/Qmc-Max-115_1_wrupbd.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757358080/Qmc-Max-115_1_wrupbd.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757358080/Qmc-Max-115_2_cszgyp.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757358081/Qmc-Max-115_3_s82uuz.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757358079/Qmc-Max-115_4_nhlq7p.webp',
+    ],
+    categoryId: 'bafles-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '013-Q-212d',
+    name: 'Q-112D',
+    slug: 'q-112d',
+    description:
+      'Medio Q-112d, 600 rms reales, ecualizador con tres bandas muy buen sonido',
+    price: 7000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757359016/Q-112D_1_sdj4cw.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757359016/Q-112D_1_sdj4cw.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757359015/Q-112D_2_sjvi4p.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757359016/Q-112D_3_azw4i1.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757359015/Q-112D_4_fqrrnq.webp',
+    ],
+    categoryId: 'bafles-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '014-ELT15ADS',
+    name: 'ELT15ADS',
+    slug: 'elt15ads',
+    description:
+      'Bafle élite 15 pulgadas, Bluetooth, 700 rms cajón profundo, usb, se pude sincronizar dos equipos  con un mismo Bluetooth',
+    price: 8800.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757376264/ELT15ADS_1_b6fxoj.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757376264/ELT15ADS_1_b6fxoj.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757376264/ELT15ADS_2_sf7p3u.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757376266/ELT15ADS_3_uvdder.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757376263/ELT15ADS_4_kewxpy.webp',
+    ],
+    categoryId: 'bafles-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
     id: '016',
     name: 'VXT 208',
     slug: 'arreglos-lineales-vxt-208',
@@ -544,6 +639,61 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750996040/VSP218-2_fnxyrg.webp',
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750996036/VSP218-3_ucada2.webp',
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1750996037/VSP218-4_leyict.webp',
+    ],
+    categoryId: 'subwoofers-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '039-tanke-1850',
+    name: 'TANKE 1850',
+    slug: 'tanke-1850',
+    description:
+      'Subwoofer sl 18 pulgadas, cajón profundo, cortes predeterminados exelente sonido',
+    price: 7500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757360233/TANKE-1850_1_s5va6k.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757360233/TANKE-1850_1_s5va6k.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757360233/TANKE-1850_2_wsqltl.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757360233/TANKE-1850_3_g7rglk.webp',
+    ],
+    categoryId: 'subwoofers-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '040-SP-18-Advanced',
+    name: 'SP-18 Advanced',
+    slug: 'subwoofers-sp-18-advanced',
+    description:
+      'Subwoofer sp 18 advanced 600 rms reales, 1200 máximo corte predeterminados',
+    price: 8900.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757375634/SP-18-Advanced_1_sqcdew.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757375634/SP-18-Advanced_1_sqcdew.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757375632/SP-18-Advanced_2_z7dcib.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757375633/SP-18-Advanced_3_ycnojz.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757375633/SP-18-Advanced_4_afkhka.webp',
+    ],
+    categoryId: 'subwoofers-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '041-elt18a',
+    name: 'ELT18A',
+    slug: 'elt18a',
+    description:
+      'Subwoofer élite 18 pulgadas, 1000 rms reales, cajón de madera, 2000watts',
+    price: 11900.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757377055/ELT18A_1_jyaqxz.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757377055/ELT18A_1_jyaqxz.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757377056/ELT18A_2_jc4yrc.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757377057/ELT18A_3_twnluc.webp',
     ],
     categoryId: 'subwoofers-category',
     features: [],
@@ -1371,8 +1521,9 @@ export const PRODUCTS: Product[] = [
     id: '007-EDS15P',
     name: 'EDS15P',
     slug: 'eds15p',
-    description: 'EDS15P',
-    price: 6960.0,
+    description:
+      'Bafle elite 15, EDS15P, 500 rms muy buen sonido, cortes de forma digital, exelente para monitor',
+    price: 7000.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751129705/EDS15P-1_n7ohjp.webp',
     images: [
@@ -1388,8 +1539,9 @@ export const PRODUCTS: Product[] = [
     id: '008-EDS18P',
     name: 'EDS18P',
     slug: 'eds18p',
-    description: 'EDS18P',
-    price: 9920.0,
+    description:
+      'Subwoofer élite 18 pulgadas , presetts , preestablecidos 1500  watts máximo',
+    price: 10000,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751129910/EDS18P-1_nutgfo.webp',
     images: [
