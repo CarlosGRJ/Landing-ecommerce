@@ -271,6 +271,44 @@ export const PRODUCTS: Product[] = [
     videoUrl: '',
   },
   {
+    id: '015-NT112-PRO',
+    name: 'NT112 PRO',
+    slug: 'nt112-pro',
+    description:
+      'Bafle amplificado NT112 PRO cajón de madera 8000 rms reales, Bluetooth, cortes de forma digital exelente para monitor',
+    price: 8300.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757472848/NT112-PRO_1_fcy5j9.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757472848/NT112-PRO_1_fcy5j9.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757472845/NT112-PRO_2_x2txsy.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757472846/NT112-PRO_3_e495ie.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757472843/NT112-PRO_4_xkm6uu.webp',
+    ],
+    categoryId: 'bafles-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '016-NT115-PRO',
+    name: 'NT115 PRO',
+    slug: 'nt115-pro',
+    description:
+      'Bafle amplificado NT115 PRO cajón de madera 800rms reales, Bluetooth Cajón de madera exelente sonido ,ecualizador con cortes',
+    price: 9000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757474126/NT115-PRO_1_cyg0ob.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757474126/NT115-PRO_1_cyg0ob.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757474123/NT115-PRO_2_cm4p3w.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757474122/NT115-PRO_3_gvh0sx.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757474127/NT115-PRO_4_jvhvri.webp',
+    ],
+    categoryId: 'bafles-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
     id: '016',
     name: 'VXT 208',
     slug: 'arreglos-lineales-vxt-208',
@@ -650,7 +688,7 @@ export const PRODUCTS: Product[] = [
     slug: 'tanke-1850',
     description:
       'Subwoofer sl 18 pulgadas, cajón profundo, cortes predeterminados exelente sonido',
-    price: 7500.0,
+    price: 7000.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757360233/TANKE-1850_1_s5va6k.webp',
     images: [
@@ -694,6 +732,26 @@ export const PRODUCTS: Product[] = [
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757377055/ELT18A_1_jyaqxz.webp',
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757377056/ELT18A_2_jc4yrc.webp',
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757377057/ELT18A_3_twnluc.webp',
+    ],
+    categoryId: 'subwoofers-category',
+    features: [],
+    videoUrl: '',
+  },
+  {
+    id: '017-NT118-PRO',
+    name: 'NT118 PRO',
+    slug: 'nt118-pro',
+    description:
+      'Subwoofer NT118 PRO, cajón de madera 1000 watts rms, cortes predeterminados',
+    price: 11000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757475299/NT118-PRO_1_uzdnql.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757475299/NT118-PRO_1_uzdnql.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757475289/NT118-PRO_2_bq81bb.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757475294/NT118-PRO_3_vxmooj.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757475296/NT118-PRO_4_dsnqgz.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757475291/NT118-PRO_5_ipkz5i.webp',
     ],
     categoryId: 'subwoofers-category',
     features: [],
@@ -6188,6 +6246,79 @@ export const PRODUCTS: Product[] = [
     features: [],
     videoUrl: '',
   },
+  {
+    id: '17-BEAM-280W',
+    name: 'BEAM 280W',
+    description:
+      'Cabeza 10r, 280 watts foco de descarga, blanco más 15 colores, gobos, case con dos piezas',
+    slug: 'beam-280w',
+    price: 12200.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757551895/BEAM-280W_1_qqpvyt.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757551895/BEAM-280W_1_qqpvyt.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757551890/BEAM-280W_2_xstww8.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757551892/BEAM-280W_3_djfyds.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1757551898/BEAM-280W_4_kwdobo.mp4',
+  },
+  {
+    id: '18-case-estrobo-con-tira--sin-tira',
+    name: 'Case Estrobo con Tira y Sin Tira',
+    description:
+      'Case de estrobo con tira y sin tira, 6 piezas con clamp abatible, rgb, automático',
+    slug: 'case-estrobo-con-tira--sin-tira',
+    price: 11000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757553226/case-de-estrobo_1_ik7pzz.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757553226/case-de-estrobo_1_ik7pzz.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757553226/case-de-estrobo_2_kbn25f.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757553226/case-de-estrobo_3_gwzxln.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1757553227/case-de-estrobo_4_bsrm2i.mp4',
+  },
+  {
+    id: '19-case-de-estrobo-6-piezas',
+    name: 'Case de strobo con 6 piezas',
+    description:
+      'Case de strobo con 6 piezas cable de señal corriente , automático  un año de garantía',
+    slug: 'case-de-estrobo-6-piezas',
+    price: 11000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757553910/case-de-estrobo-6-piezas_1_cseviw.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757553910/case-de-estrobo-6-piezas_1_cseviw.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757553910/case-de-estrobo-6-piezas_2_nuffb9.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1757553911/case-de-estrobo-6-piezas_3_otsd34.mp4',
+  },
+  {
+    id: '20-blinder-dos-ojos-luz-fria-calida',
+    name: 'Blinder de dos ojos luz fría y cálida',
+    description:
+      'Blinder de dos ojos luz fría y cálida, con aura de color, automático',
+    slug: 'blinder-dos-ojos-luz-fria-calida',
+    price: 2100.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757554414/blinder-dos-ojos_1_vnhkrz.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757554414/blinder-dos-ojos_1_vnhkrz.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757554414/blinder-dos-ojos_2_rb6zlb.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [],
+    videoUrl: '',
+  },
 
   //Estructuras
   {
@@ -6314,6 +6445,27 @@ export const PRODUCTS: Product[] = [
     categoryId: 'estructuras-category',
     features: ['Con niveladores'],
     videoUrl: '',
+  },
+  {
+    id: '08-pista-magnetica',
+    name: 'Pista magnética Desde $52,500',
+    description:
+      'Pista magnetica se vence por proyecto exelente para , bodas, cumpleaños todo tipo de evento',
+    slug: 'pista-magnetica',
+    price: 52500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757559295/pista-magnetica_1_qpls2s.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757559295/pista-magnetica_1_qpls2s.webp',
+    ],
+    categoryId: 'estructuras-category',
+    features: [
+      'Se vende por proyecto, 3x3 con controlador dmx en $52,500',
+      '3x3 con control sencillo en $ 48,900',
+      'Y 5x5 $ 120,000',
+    ],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1757559296/pista-magnetica_2_tochvk.mp4',
   },
 
   // Accesorios
@@ -6638,6 +6790,24 @@ export const PRODUCTS: Product[] = [
     features: [],
     videoUrl: '',
   },
+  {
+    id: '19-maquina-de-chispas-luz-fria',
+    name: 'Máquina de chispas luz fría',
+    description:
+      'Exelente para sus eventos, control remoto, cable de señal, corriente',
+    slug: 'maquina-de-chispas-luz-fria',
+    price: 6000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757478659/maquina-chispas-luz-fr%C3%ADa_1_mpulnh.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757478659/maquina-chispas-luz-fr%C3%ADa_1_mpulnh.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757478661/maquina-chispas-luz-fr%C3%ADa_2_gxwuas.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1757557932/maquina-chispas-luz-fri%CC%81a_3_bs3thj.mp4',
+  },
 
   // Lasers
   {
@@ -6744,4 +6914,21 @@ export const PRODUCTS: Product[] = [
   },
 
   // Pantallas
+  {
+    id: '01-pantalla-exterior-pitch-3-9',
+    name: 'Pantalla para exterior pitch 3.9',
+    description:
+      'Pantalla para exterior pich 3.9 Cables de señal, corriente , video procesador , case de refacciónes un año de garantía`',
+    slug: 'pantalla-exterior-pitch-3-9',
+    price: 125000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757556231/pantalla-exterior-pitch-3-9_1_tfuxt9.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757556231/pantalla-exterior-pitch-3-9_1_tfuxt9.webp',
+    ],
+    categoryId: 'pantallas-category',
+    features: ['Envio gratis'],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1757556233/pantalla-exterior-pitch-3-9_2_xwurrt.mp4',
+  },
 ];
