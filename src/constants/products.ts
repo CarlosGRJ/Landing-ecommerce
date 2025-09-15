@@ -6920,7 +6920,7 @@ export const PRODUCTS: Product[] = [
     description:
       'Pantalla para exterior pich 3.9 Cables de señal, corriente , video procesador , case de refacciónes un año de garantía`',
     slug: 'pantalla-exterior-pitch-3-9',
-    price: 125000.0,
+    price: 120000.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757556231/pantalla-exterior-pitch-3-9_1_tfuxt9.webp',
     images: [
