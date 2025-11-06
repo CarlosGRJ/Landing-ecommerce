@@ -706,7 +706,7 @@ export const PRODUCTS: Product[] = [
     slug: 'subwoofers-sp-18-advanced',
     description:
       'Subwoofer sp 18 advanced 600 rms reales, 1200 máximo corte predeterminados',
-    price: 8900.0,
+    price: 9500.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757375634/SP-18-Advanced_1_sqcdew.webp',
     images: [
