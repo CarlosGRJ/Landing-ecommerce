@@ -309,6 +309,42 @@ export const PRODUCTS: Product[] = [
     videoUrl: '',
   },
   {
+    id: '017-DSP112',
+    name: 'DSP112',
+    slug: 'dsp112',
+    description:
+      'Bafle 12 pulgas sl, Bluetooth, 500 watts exelente para monitor muy buen sonido  SL PROLIGHT',
+    price: 5850.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769133169/DSP112_1_agsxfn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769133169/DSP112_1_agsxfn.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769133169/DSP112_2_umkkar.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769133169/DSP112_3_thgkb1.webp',
+    ],
+    categoryId: 'bafles-category',
+    features: ['Un año de garantía'],
+    videoUrl: '',
+  },
+  {
+    id: '018-DSP115',
+    name: 'DSP115',
+    slug: 'dsp115',
+    description:
+      'Bafle 15 pulgadas amplificado sl, Bluetooth, 500 rms exelente para monitor, SL PROLIGHT',
+    price: 6400.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769134027/DSP115_1_npezvo.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769134027/DSP115_1_npezvo.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769134027/DSP115_2_sl7ogw.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769134026/DSP115_3_y0y2ai.webp',
+    ],
+    categoryId: 'bafles-category',
+    features: ['Un año de garantía'],
+    videoUrl: '',
+  },
+  {
     id: '016',
     name: 'VXT 208',
     slug: 'arreglos-lineales-vxt-208',
@@ -688,7 +724,7 @@ export const PRODUCTS: Product[] = [
     slug: 'tanke-1850',
     description:
       'Subwoofer sl 18 pulgadas, cajón profundo, cortes predeterminados exelente sonido',
-    price: 7000.0,
+    price: 8000.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757360233/TANKE-1850_1_s5va6k.webp',
     images: [
@@ -6290,7 +6326,7 @@ export const PRODUCTS: Product[] = [
     description:
       'Case de strobo con 6 piezas cable de señal corriente , automático  un año de garantía',
     slug: 'case-de-estrobo-6-piezas',
-    price: 11000.0,
+    price: 12500.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1757553910/case-de-estrobo-6-piezas_1_cseviw.webp',
     images: [
