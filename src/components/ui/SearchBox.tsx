@@ -20,7 +20,10 @@ const searchSchema = z.object({
   query: z
     .string()
     .trim()
-    .min(2, 'Escribe al menos 2 caracteres para buscar.'),
+    .refine(
+      (value) => value.length === 0 || value.length >= 2,
+      'Escribe al menos 2 caracteres para buscar.',
+    ),
 });
 
 type SearchFormData = z.infer<typeof searchSchema>;
@@ -61,6 +64,13 @@ export const SearchBox = () => {
                   autoComplete='off'
                   aria-label='Buscar productos'
                   {...field}
+                  onChange={(event) => {
+                    const nextValue = event.target.value;
+                    field.onChange(event);
+                    if (!nextValue.trim()) {
+                      form.clearErrors('query');
+                    }
+                  }}
                 />
               </FormControl>
               <FormMessage />
