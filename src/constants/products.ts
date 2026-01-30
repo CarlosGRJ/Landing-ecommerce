@@ -1564,7 +1564,27 @@ export const PRODUCTS: Product[] = [
     videoUrl: '',
   },
   {
-    id: '004-JZG XDS 9218SB',
+    id: '004-NT218A SUB PRO',
+    name: 'NT218A SUB PRO',
+    slug: 'nt218a-sub-pro',
+    description:
+      'Subwoofer NT218A SUB PRO, cajón de madera, 139db, 8ohms, 2 vías, 7200 watts, Novatech',
+    price: 30250.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769367224/NT218A-SUB-PRO_1_lnbuwi.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769367224/NT218A-SUB-PRO_1_lnbuwi.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769367224/NT218A-SUB-PRO_2_ntwb5k.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769367224/NT218A-SUB-PRO_3_esoerg.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769367224/NT218A-SUB-PRO_4_cgohcj.webp',
+    ],
+    categoryId: 'subwoofers-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1769368248/NT218A-SUB-PRO-video_skhgyv.mp4',
+  },
+  {
+    id: '006-JZG XDS 9218SB',
     name: 'JZG XDS 9218SB',
     slug: 'jzg-xds-9218sb',
     description: 'JZG XDS 9218SB',
@@ -1580,7 +1600,7 @@ export const PRODUCTS: Product[] = [
     videoUrl: '',
   },
   {
-    id: '005-JZG SET 4 RUEDAS',
+    id: '007-JZG SET 4 RUEDAS',
     name: 'JZG SET 4 RUEDAS',
     slug: 'jzg-set-4-ruedas',
     description: 'JZG SET 4 RUEDAS',
@@ -1776,6 +1796,26 @@ export const PRODUCTS: Product[] = [
       '90-260v autoregulable 145db 4ohms R. Frecuencia35-450hz +-3db',
     ],
     videoUrl: '',
+  },
+  {
+    id: '017-NT210-A-NOVATECH-PRO',
+    name: 'NT210 A PRO NOVATECH',
+    slug: 'nt210-a-novatech-pro',
+    description:
+      'Bafle lineal NT210 A PRO NOVATECH, 2 vías, 134 DB, cajón de plástico',
+    price: 18760.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769562831/NT210APRO_1_psoti4.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769562831/NT210APRO_1_psoti4.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769562830/NT210APRO_2_qk84tp.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769562314/NT210A_1_saetxm.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769562314/NT210A_2_mhnbzb.webp',
+    ],
+    categoryId: 'arreglos-lineales-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1769562832/NT210APRO_3_klpb8n.mp4',
   },
   {
     id: '018-DSC 24X DSP',
@@ -5202,6 +5242,223 @@ export const PRODUCTS: Product[] = [
     videoUrl: '',
   },
   {
+    id: '61-bomb-400',
+    name: 'BOMB 400',
+    description: 'Máquina de humo BOMB 400w CONCERT',
+    slug: 'bomb-400',
+    price: 650.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769395301/BOMB-400_1_ztv7a2.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769395301/BOMB-400_1_ztv7a2.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769395301/BOMB-400_2_ketrk6.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769395301/BOMB-400_3_iaqcp1.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769395301/BOMB-400_4_nenlkh.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [
+      '400W',
+      '8 leds RGB 3W c/u',
+      'Vol. de disparo: 2700 CUFT/min',
+      'Distancia de disparo: 2-4 mts',
+      'Remoto, manual, DMX',
+      'Líquido base agua',
+    ],
+    videoUrl: '',
+  },
+  {
+    id: '62-bomb-1500',
+    name: 'BOMB 1500',
+    description: 'Máquina de humo BOMB 1500 CONCERT',
+    slug: 'bomb-1500',
+    price: 2882.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769395996/BOMB-1500_1_xu0pxu.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769395996/BOMB-1500_1_xu0pxu.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769395995/BOMB-1500_2_zi9jgy.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769395995/BOMB-1500_3_nn8tck.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769395994/BOMB-1500_4_rjp9nb.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [
+      '1500W',
+      '24 leds RGB 1.5W',
+      'Vol. de disparo: 20,000 CUFT/min',
+      'Distancia de disparo: 6-8 mts',
+      '3 pocisiones ajustables: Horizontal frontal, Vertical ascendente y descendente',
+      'Remoto, manual, DMX',
+      'Líquido base agua',
+    ],
+    videoUrl: '',
+  },
+  {
+    id: '63-bomb-co2',
+    name: 'BOMB CO2',
+    description: 'Máquina de humo BOMB CO2 CONCERT',
+    slug: 'bomb-co2',
+    price: 3805.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769396271/BOMB-CO2_1_qc1yjl.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769396271/BOMB-CO2_1_qc1yjl.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769396270/BOMB-CO2_2_ar4cf0.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769396270/BOMB-CO2_3_jhlpab.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [
+      '25W',
+      '12 leds RGB 1.5',
+      'Vol. de disparo: Proporcional a la presión generada de origen',
+      'Distancia de disparo: 8 mts',
+      'Manual, DMX',
+      'Líquido: CO2',
+    ],
+    videoUrl: '',
+  },
+  {
+    id: '64-bomb-snw',
+    name: 'BOMB SNW',
+    description: 'Máquina de humo BOMB SNW CONCERT',
+    slug: 'bomb-snw',
+    price: 1357.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769396693/BOMB-nsw_1_nacxcj.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769396693/BOMB-nsw_1_nacxcj.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769396694/BOMB-nsw_2_uoozk2.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769396693/BOMB-nsw_3_wjnqqh.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [
+      '600W',
+      'Vol. de disparo: Proporcional a la presión del consumible utilizado',
+      'Distancia de disparo: 30m2 relativo a la calidad del consumible utilizado',
+      'Remoto, Manual, DMX',
+      'Líquido: Líquido para nieve',
+    ],
+    videoUrl: '',
+  },
+  {
+    id: '65-SNIPER-CONCERT',
+    name: 'SNIPER CONCERT',
+    description: 'Máquina de humo SNIPER CONCERT',
+    slug: 'sniper-concert',
+    price: 3401.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769397103/SNIPER_1_bpfxnm.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769397103/SNIPER_1_bpfxnm.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769397102/SNIPER_2_rirjj0.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769397101/SNIPER_3_xdpsnv.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [
+      '1500W',
+      '9 Leds RGB 1.5',
+      'Vol. de disparo: 15,000 CUFT/min',
+      'Distancia de disparo: 8-10 mts',
+      'Remoto, Manual, DMX',
+      'Líquido: Base agua',
+    ],
+    videoUrl: '',
+  },
+  {
+    id: '66-bomb-1200',
+    name: 'BOMB 1200',
+    description: 'Máquina de humo BOMB 1200 CONCERT',
+    slug: 'bomb-1200',
+    price: 1850.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769397609/BOMB-1200_1_colrxn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769397609/BOMB-1200_1_colrxn.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769397606/BOMB-1200_2_jxc0wd.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769397607/BOMB-1200_3_xvalzw.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [
+      '1200W',
+      '6 leds RGB 1.5W',
+      'Vol. de disparo: 15,000 CUFT/min',
+      'Distancia de disparo: 5-6 mts',
+      '3 pocisiones ajustables: Horizontal frontal, Vertical ascendente y descendente',
+      'Remoto, manual, DMX',
+      'Líquido base agua',
+    ],
+    videoUrl: '',
+  },
+  {
+    id: '67-bomb-hz',
+    name: 'BOMB HZ',
+    description: 'Máquina de humo BOMB HZ CONCERT',
+    slug: 'bomb-hz',
+    price: 3982.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769398217/BOMB-HZ_1_z7ugme.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769398217/BOMB-HZ_1_z7ugme.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769398214/BOMB-HZ_2_esycug.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769398215/BOMB-HZ_3_qxduju.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [
+      '1000W',
+      'Vol. de disparo: 10,000 CUFT/min',
+      'Distancia de disparo: 4-7 mts',
+      'Remoto, manual, DMX',
+      'Líquido base agua',
+    ],
+    videoUrl: '',
+  },
+  {
+    id: '68-bomb-800',
+    name: 'BOMB 800',
+    description: 'Máquina de humo BOMB 800 CONCERT',
+    slug: 'bomb-800',
+    price: 990.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769401241/BOMB-800_1_pwfvzl.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769401241/BOMB-800_1_pwfvzl.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769401240/BOMB-800_2_kkdiso.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769401243/BOMB-800_3_xdtuzd.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [
+      '800W',
+      '6 leds 1W (2 rojos, 2 verdes, 2 azules)',
+      'Vol. de disparo: 10,000 CUFT/min',
+      'Distancia de disparo: 5 mts',
+      'Remoto, manual, DMX',
+      'Líquido base agua',
+    ],
+    videoUrl: '',
+  },
+  {
+    id: '69-bomb-lw',
+    name: 'BOMB LW',
+    description: 'Máquina de humo BOMB LW CONCERT',
+    slug: 'bomb-lw',
+    price: 4153.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769401601/BOMB-LW_1_wkd0ex.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769401601/BOMB-LW_1_wkd0ex.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769401599/BOMB-LW_2_wy6ebs.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769401597/BOMB-LW_3_d31ftj.webp',
+    ],
+    categoryId: 'humo-category',
+    features: [
+      '1000W',
+      'Vol. de disparo: 323 CUFT/min',
+      'Distancia de disparo: 30 m2',
+      'Remoto, manual, DMX',
+      'Líquido base agua',
+    ],
+    videoUrl: '',
+  },
+  {
     id: '61-dmx001',
     name: 'DMX001',
     description: 'CABLE DMX 1 MT',
@@ -5784,6 +6041,24 @@ export const PRODUCTS: Product[] = [
     features: [],
     videoUrl: '',
   },
+  {
+    id: '09-pantalla-led-esfera-interior',
+    name: 'Pantalla de esfera LED para interior',
+    description:
+      'Pantalla de esfera LED para interiorm pich 2.9 con case, 1 año de garantía',
+    slug: 'pantalla-led-esfera-interior',
+    price: 205000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769636036/Esfera-LED-pantalla_1_bnhs1x.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769636036/Esfera-LED-pantalla_1_bnhs1x.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769636037/Esfera-LED-pantalla_2_hkdd3u.webp',
+    ],
+    categoryId: 'esferas-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1769636040/Esfera-LED-pantalla_3_mtciqb.mp4',
+  },
 
   // Cabinas
   {
@@ -6043,6 +6318,60 @@ export const PRODUCTS: Product[] = [
     categoryId: 'iluminacion-category',
     features: [],
     videoUrl: '',
+  },
+  {
+    id: '03-488-str',
+    name: '488-STR',
+    description: 'Case de luminio 488-STR-K',
+    slug: '488-str',
+    price: 8500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769473117/488-STR_1_ad7mwn.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769473117/488-STR_1_ad7mwn.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769473117/488-STR_2_qarmlc.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769473510/488-STR_4_mt8lrf.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769473511/488-STR_5_ktsazy.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769473511/488-STR_6_hhphm5.webp',
+    ],
+    categoryId: 'iluminacion-category',
+    features: ['170W', 'Vida útil: 50,000 horas'],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1769473119/488-STR_3_zfmxab.mp4',
+  },
+  {
+    id: '04-strobo-multiefecto-360',
+    name: 'Strobo multiefecto 360',
+    description: 'Multiefecto con láser, strobo, rgb, apertura 360°',
+    slug: 'strobo-multiefecto-360',
+    price: 3200.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769625800/multi-estrobo-360_1_ovfmod.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769625800/multi-estrobo-360_1_ovfmod.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769625799/multi-estrobo-360_2_rbqfij.webp',
+    ],
+    categoryId: 'iluminacion-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1769625801/multi-estrobo-360_3_s2gnyp.mp4',
+  },
+  {
+    id: '05-barra-led-medusa-12x60w-rgbw',
+    name: 'Barra LED Medusa motorizada 12x60W RGBW',
+    description:
+      'La Barra LED Medusa motorizada 12x60W RGBW es la opción ideal para DJ, clubes, discotecas y eventos en vivo.',
+    slug: 'barra-led-medusa-12x60w-rgbw',
+    price: 48000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769631655/MEDUSA-LED_2.m_pttatf.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769631655/MEDUSA-LED_2.m_pttatf.webp',
+    ],
+    categoryId: 'iluminacion-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1769631657/MEDUSA-LED_1_to2ura.mp4',
   },
 
   // LUCES
@@ -6353,6 +6682,128 @@ export const PRODUCTS: Product[] = [
     ],
     categoryId: 'luces-category',
     features: [],
+    videoUrl: '',
+  },
+  {
+    id: '21-ASTRO-740',
+    name: 'ASTRO 740',
+    description: 'Cabeza móvil BEE EYE ASTRO 740 MEGALUZ',
+    slug: 'astro-740',
+    price: 11385.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769402124/ASTRO-740_1_h74cmd.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769402124/ASTRO-740_1_h74cmd.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769402119/ASTRO-740_2_dtkuhi.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769402120/ASTRO-740_3_r6h1kw.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [
+      '7 leds RGBW de 40W',
+      'Efecto 1: Bee eye giratorio',
+      'Xoom lineal',
+      'DMX In/Out',
+    ],
+    videoUrl: '',
+  },
+  {
+    id: '22-ZEUZ-380',
+    name: 'ZEUZ 380',
+    description: 'Cabeza móvil ZEUZ 380 MEGALUZ',
+    slug: 'zeuz-380',
+    price: 22000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769472240/ZEUZ-380_1_p7ggb5.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769472240/ZEUZ-380_1_p7ggb5.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769472239/ZEUZ-380_2_ldpwdx.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769472239/ZEUZ-380_3_rpioky.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [
+      '1 lámpara de halógeno OSRAM SIRIUS 380W + 24 leds rgb smd 5050',
+      '14 colores + blanco',
+      '12 globos fijos + abierto',
+      'Prisma 1: circular de 8 caras',
+      'Prisma 2: circular de 8+16+32 caras',
+    ],
+    videoUrl: '',
+  },
+  {
+    id: '23-tecno-250',
+    name: 'TECNO 250',
+    description: 'TECNO 250 Cabeza Móvil NOVATECH',
+    slug: 'tecno-250',
+    price: 13100.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769485006/TECNO-250_1_jqpkjv.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769485006/TECNO-250_1_jqpkjv.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769485007/TECNO-250_2_qbjoke.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769485005/TECNO-250_3_hdoek2.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769485005/TECNO-250_4_sygexm.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769485004/TECNO-250_5_yd4l8n.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1769485017/TECNO-250_6_b6dzuv.mp4',
+  },
+  {
+    id: '24-hurricane',
+    name: 'HURRICANE',
+    description: 'Luz giratoria HURRICANE SL Pro Lighting',
+    slug: 'hurricane',
+    price: 3300.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769537337/HURRICAINE_1_sr8ale.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769537337/HURRICAINE_1_sr8ale.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769537337/HURRICAINE_2_kliqbt.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769537337/HURRICAINE_3_iro582.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769537337/HURRICAINE_4_lwlx9v.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [],
+    videoUrl:
+      'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1769537340/HURRICAINE_5_jtlipf.mp4',
+  },
+  {
+    id: '25-7rh-lite-steelpro',
+    name: '7RH-LITE STEELPRO',
+    description: 'Cabeza Móvil Lámpara 7RH-LITE STEELPRO BEAM 230W + Aro SMD',
+    slug: '7rh-lite-steelpro',
+    price: 24000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769807236/7RH-LITE_1_cfbkem.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769807236/7RH-LITE_1_cfbkem.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769561232/7RH-LITE_2_t03cc0.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769561232/7RH-LITE_3_msnlkn.webp',
+    ],
+    categoryId: 'luces-category',
+    features: ['DMX', 'Automático', 'Audioritmico'],
+    videoUrl: '',
+  },
+  {
+    id: '25-apolo-250-megaluz',
+    name: 'APOLO 250 MEGALUZ',
+    description: 'Cabeza Móvil MINI 7R APOLO 250 MEGALUZ',
+    slug: 'apolo-250-megaluz',
+    price: 13090.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769563421/APOLO-250_1_xdkcwy.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769563421/APOLO-250_1_xdkcwy.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769563266/APOLO-250_2_zxc1fc.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769563266/APOLO-250_3_ad8slm.webp',
+    ],
+    categoryId: 'luces-category',
+    features: [
+      '1 Lámpara de 251W + 23 leds rgb 0.2W smd 5050',
+      '11 colores',
+      'Automático, Audioritmico, DMX',
+    ],
     videoUrl: '',
   },
 
@@ -6843,6 +7294,21 @@ export const PRODUCTS: Product[] = [
     features: [],
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1757557932/maquina-chispas-luz-fri%CC%81a_3_bs3thj.mp4',
+  },
+  {
+    id: '20-liquido-para-nieve',
+    name: 'Líquido para nieve',
+    description: 'Líquido nieve para máquina de nieve premium grade 1 Gal',
+    slug: 'liquido-para-nieve',
+    price: 250.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769538381/SnowLiquid-1gal_ncozxt.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769538381/SnowLiquid-1gal_ncozxt.webp',
+    ],
+    categoryId: 'efectos-category',
+    features: [],
+    videoUrl: '',
   },
 
   // Lasers
