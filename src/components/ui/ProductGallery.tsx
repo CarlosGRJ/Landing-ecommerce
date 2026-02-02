@@ -1,6 +1,7 @@
 'use client';
 
 import {
+  type CarouselApi,
   Carousel,
   CarouselContent,
   CarouselItem,
@@ -9,7 +10,7 @@ import {
 } from '@/components/ui/carousel';
 import Image from 'next/image';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 interface ProductGalleryProps {
   images: string[];
@@ -24,9 +25,13 @@ export const ProductGallery = ({
 }: ProductGalleryProps) => {
   const [selected, setSelected] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
+  const [carouselApi, setCarouselApi] = useState<CarouselApi | null>(null);
+  const swipeStartX = useRef<number | null>(null);
 
   const canOpenImage = selected >= 0 && Boolean(images[selected]);
   const totalImages = images.length;
+  const blurDataUrl =
+    'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjI0IiBmaWxsPSIjZjNmNGY2Ii8+PC9zdmc+';
 
   const goPrev = useCallback(() => {
     if (!totalImages) return;
@@ -50,6 +55,26 @@ export const ProductGallery = ({
     document.addEventListener('keydown', handleKeyDown);
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, [isOpen, goNext, goPrev]);
+
+  useEffect(() => {
+    if (!carouselApi) return;
+    if (selected < 0) return;
+    carouselApi.scrollTo(selected);
+  }, [carouselApi, selected]);
+
+  const handlePointerDown = (event: React.PointerEvent<HTMLDivElement>) => {
+    swipeStartX.current = event.clientX;
+  };
+
+  const handlePointerUp = (event: React.PointerEvent<HTMLDivElement>) => {
+    if (swipeStartX.current === null) return;
+    const deltaX = event.clientX - swipeStartX.current;
+    swipeStartX.current = null;
+
+    if (Math.abs(deltaX) < 40) return;
+    if (deltaX > 0) goPrev();
+    else goNext();
+  };
 
   return (
     <section
@@ -75,15 +100,20 @@ export const ProductGallery = ({
               if (canOpenImage) setIsOpen(true);
             }}
             aria-label={`Ampliar imagen ${selected + 1} de ${productName}`}
-            className='w-full h-full cursor-zoom-in'>
+            className='group relative w-full h-full cursor-zoom-in'>
             <Image
               src={images[selected] || '/images/no-image.webp'}
               alt={`Imagen ${selected + 1} de ${productName}`}
               width={1000}
               height={600}
               className='w-full h-full object-contain'
+              placeholder='blur'
+              blurDataURL={blurDataUrl}
               priority
             />
+            <span className='pointer-events-none absolute inset-x-0 bottom-2 mx-auto inline-flex w-fit items-center gap-2 rounded-full bg-black/60 px-3 py-1 text-xs font-medium text-white opacity-0 transition group-hover:opacity-100'>
+              Click para ampliar
+            </span>
           </button>
         )}
         {isOpen && canOpenImage && (
@@ -103,6 +133,9 @@ export const ProductGallery = ({
                 className='absolute -top-12 right-0 inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/90 text-gray-900 shadow hover:bg-white'>
                 <X className='h-4 w-4' aria-hidden='true' />
               </button>
+              <div className='absolute -top-10 left-0 rounded-full bg-black/60 px-3 py-1 text-xs font-medium text-white'>
+                {selected + 1} / {totalImages}
+              </div>
               {totalImages > 1 && (
                 <button
                   type='button'
@@ -121,13 +154,19 @@ export const ProductGallery = ({
                   <ChevronRight className='h-5 w-5' aria-hidden='true' />
                 </button>
               )}
-              <div className='w-full aspect-video rounded-lg overflow-hidden bg-white'>
+              <div
+                className='w-full aspect-video rounded-lg overflow-hidden bg-white touch-pan-y'
+                onPointerDown={handlePointerDown}
+                onPointerUp={handlePointerUp}
+                onPointerLeave={handlePointerUp}>
                 <Image
                   src={images[selected] || '/images/no-image.webp'}
                   alt={`Imagen ampliada ${selected + 1} de ${productName}`}
                   width={1000}
                   height={600}
-                  className='w-full h-full object-contain'
+                  className='w-full h-full object-contain select-none'
+                  placeholder='blur'
+                  blurDataURL={blurDataUrl}
                 />
               </div>
             </div>
@@ -139,6 +178,7 @@ export const ProductGallery = ({
       <div className='mt-4'>
         <Carousel
           opts={{ align: 'start' }}
+          setApi={setCarouselApi}
           className='w-full max-w-3xs md:max-w-5xl mx-auto'>
           <CarouselContent>
             {videoUrl && (
@@ -172,6 +212,8 @@ export const ProductGallery = ({
                     width={150}
                     height={100}
                     className='w-full h-full object-contain'
+                    placeholder='blur'
+                    blurDataURL={blurDataUrl}
                   />
                 </button>
               </CarouselItem>
