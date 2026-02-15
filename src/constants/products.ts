@@ -6203,9 +6203,10 @@ export const PRODUCTS: Product[] = [
   {
     id: '03-Ghost-900w-Steelpro',
     name: 'Ghost 900w Steelpro',
-    description: 'Camara De Humo Ghost 900w Steelpro Con Control Inalámbrico',
-    slug: 'ghost-900w-steelpro`',
-    price: 780.0,
+    description:
+      'Máquina de 900 watts , con control inalámbrico y manual , leds de colores exelente para sus fiestas',
+    slug: 'ghost-900w-steelpro',
+    price: 950.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751735282/ghost-900_1_k2clxn.webp',
     images: [
@@ -6223,7 +6224,7 @@ export const PRODUCTS: Product[] = [
     name: 'Máquina de Humo Bajo',
     description: '',
     slug: 'maquina-humo-bajo',
-    price: 12000.0, // PENDIENTE
+    price: 12000.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751761367/Maquina-humo-bajo_frtjvt.webp',
     images: [
@@ -6346,10 +6347,10 @@ export const PRODUCTS: Product[] = [
     slug: 'strobo-multiefecto-360',
     price: 3200.0,
     coverImage:
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769625800/multi-estrobo-360_1_ovfmod.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1771194677/multi-estrobo-360_1_qthz5h.webp',
     images: [
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769625800/multi-estrobo-360_1_ovfmod.webp',
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1769625799/multi-estrobo-360_2_rbqfij.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1771194677/multi-estrobo-360_1_qthz5h.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1771194677/multi-estrobo-360_2_ydbwfw.webp',
     ],
     categoryId: 'iluminacion-category',
     features: [],
@@ -7251,7 +7252,7 @@ export const PRODUCTS: Product[] = [
     name: 'Detonador recargable 4 piezas con estuche',
     description: '',
     slug: 'detonador-recargable-4-piezas-con-estuche',
-    price: 1150.0,
+    price: 1650.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751949233/detonador-recargable-4-piezas-con-estuche_1_ro7b9f.webp',
     images: [
@@ -7267,7 +7268,7 @@ export const PRODUCTS: Product[] = [
     name: 'Detonador recargable 8 piezas con estuche',
     description: '',
     slug: 'detonador-recargable-8-piezas-con-estuche',
-    price: 1700.0,
+    price: 1950.0,
     coverImage:
       'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751949423/detonador-recargable-8-piezas-con-estuche_1_yjknlk.webp',
     images: [
