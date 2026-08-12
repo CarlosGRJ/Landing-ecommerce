@@ -5897,6 +5897,61 @@ export const PRODUCTS: Product[] = [
     features: [],
     videoUrl: '',
   },
+  {
+    id: '02-jzg-wds-382',
+    name: 'JZG WDS-382',
+    description:
+      'Bafle amplificado JZG WDS-382 con 700 W RMS, 97 dB, conectividad Bluetooth y amplificador clase D. Incluye un año de garantía.',
+    slug: 'jzg-wds-382',
+    price: 11500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786500272/WDS-382-1_iq4gbo.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786500272/WDS-382-1_iq4gbo.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786500275/WDS-382-2_o7dzjj.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786500272/WDS-382-3_biq125.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786500273/WDS-382-4_soopfk.webp',
+    ],
+    categoryId: 'bafles-category',
+    features: [
+      '700 W RMS',
+      '97 dB',
+      'Conectividad Bluetooth',
+      'Amplificador clase D',
+      'Un año de garantía',
+    ],
+    videoUrl: '',
+  },
+  {
+    id: '03-jzg-wds-12',
+    name: 'JZG WDS-12',
+    description:
+      'Bafle activo JZG WDS-12 de 12 pulgadas, con 700 W RMS, 1000 W de potencia máxima, sensibilidad de 95 dB, conectividad Bluetooth y amplificador clase D. Incluye un año de garantía.',
+    slug: 'jzg-wds-12',
+    price: 9500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786501802/WDS-12_1_tfwgyo.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786501802/WDS-12_1_tfwgyo.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786501802/WDS-12_2_gj8hp0.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786501803/WDS-12_3_j276h2.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786501804/WDS-12_4_or1had.webp',
+    ],
+    categoryId: 'bafles-category',
+    features: [
+      '700 W RMS',
+      '1000 W de potencia máxima',
+      'Woofer de 12 pulgadas',
+      'Sensibilidad de 95 dB',
+      'Impedancia de 4 ohms',
+      'Respuesta de frecuencia de 55 Hz a 20 kHz',
+      'Driver de titanio de 1.75 pulgadas',
+      'Conectividad Bluetooth',
+      'Amplificador clase D',
+      'Un año de garantía',
+    ],
+    videoUrl: '',
+  },
 
   // Esferas
   {
@@ -6373,6 +6428,29 @@ export const PRODUCTS: Product[] = [
     features: [],
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1769631657/MEDUSA-LED_1_to2ura.mp4',
+  },
+  {
+    id: '06-blinder-abeja-4-ojos',
+    name: 'Blinder Abeja de 4 Ojos',
+    description:
+      'Blinder de 4 ojos con diseño tipo abeja, luz cálida, fría y RGB. Incluye un año de garantía.',
+    slug: 'blinder-abeja-4-ojos',
+    price: 3000.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786493970/blinder-abeja-4-ojos-1_vqnpja.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786493970/blinder-abeja-4-ojos-1_vqnpja.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786493971/blinder-abeja-4-ojos-2_ixsamn.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786493970/blinder-abeja-4-ojos-3_a73131.webp',
+    ],
+    categoryId: 'iluminacion-category',
+    features: [
+      'Diseño de 4 ojos',
+      'Luz cálida y fría',
+      'Iluminación RGB',
+      'Un año de garantía',
+    ],
+    videoUrl: '',
   },
 
   // LUCES
@@ -7433,5 +7511,29 @@ export const PRODUCTS: Product[] = [
     features: [],
     videoUrl:
       'https://res.cloudinary.com/dbbw5ppe1/video/upload/v1757556233/pantalla-exterior-pitch-3-9_2_xwurrt.mp4',
+  },
+
+  // Subwoofers
+  {
+    id: 'massimo-doble-18',
+    name: 'Massimo Doble 18',
+    slug: 'massimo-doble-18',
+    description:
+      'Subwoofer amplificado Massimo doble de 18 pulgadas, con 800 W RMS por bocina y 1600 W de potencia máxima. Incluye un año de garantía.',
+    price: 13500.0,
+    coverImage:
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786491782/Massimo-18-1_d7ocgr.webp',
+    images: [
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786491782/Massimo-18-1_d7ocgr.webp',
+      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1786491782/Massimo-18-2_kwgpzs.webp',
+    ],
+    categoryId: 'subwoofers-category',
+    features: [
+      'Doble bocina de 18 pulgadas',
+      '800 W RMS por bocina',
+      '1600 W de potencia máxima',
+      'Un año de garantía',
+    ],
+    videoUrl: '',
   },
 ];
