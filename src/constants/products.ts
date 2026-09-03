@@ -5881,23 +5881,6 @@ export const PRODUCTS: Product[] = [
 
   // No vienen en catalogo
   {
-    id: '01-vamav-terra-218',
-    name: 'Vamav TERRA-218',
-    description: '',
-    slug: 'vamav-terra-218',
-    price: 13000.0,
-    coverImage:
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751598434/TERRA-218_1_jysxol.webp',
-    images: [
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751598434/TERRA-218_1_jysxol.webp',
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751598435/TERRA-218_2_e6pwac.webp',
-      'https://res.cloudinary.com/dbbw5ppe1/image/upload/v1751598435/TERRA-218_3_y9mr7n.webp',
-    ],
-    categoryId: 'subwoofers-category',
-    features: [],
-    videoUrl: '',
-  },
-  {
     id: '02-jzg-wds-382',
     name: 'JZG WDS-382',
     description:
